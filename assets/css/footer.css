@@ -1,0 +1,141 @@
+/* footer */
+.footer{
+	padding: 56px 0 0;
+	background-color: #003DA5;
+}
+
+.footer .wrap-info-company p{
+	color: #fff;
+	margin: 9px 0 36px;
+	max-width: 324px;
+}
+
+.footer .wrap-info-company .social-network{
+	display: flex;
+	flex-direction: row;
+}	
+
+.footer .wrap-info-company .social-network li + li{
+	margin-left: 23px;
+}
+
+.footer .wrap-info-company .social-network li a img{
+	transform: translateY(0);
+	transition: all 0.3s ease;
+}
+
+.footer .wrap-info-company .social-network li:hover a img{
+	transform: translateY(-5px);
+}
+
+.footer h5{
+	color: #FFCD00;
+	margin-bottom: 38px;
+}
+
+.footer .list-link li + li {
+	margin-top: 15px;
+}
+.footer .list-link a{
+	color: #fff;
+	font-size: 18px;
+}
+
+.footer .list-link .item {
+	display: flex;
+    margin-bottom: 20px;
+}
+
+.footer .list-link .item svg {
+	min-width: 20px;
+    margin-right: 10px;
+    transform: translateY(5px);
+}
+
+.footer .list-link a:hover{
+	color: #FFCD00;
+	text-decoration: none;
+}
+
+.footer .wrap{
+	border-top: 1px solid #D9DBE9;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 32px 0;
+}
+
+.footer .wrap p{
+	color: #FFCD00;
+}
+.footer .wrap ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.footer .wrap ul li{
+	color: #C4C4C4;
+	margin-right: 8px;
+	padding-right: 8px;
+	position: relative;
+}
+.footer .wrap ul li a{
+	color: #FFCD00;
+}
+
+.footer .wrap ul li:after{
+	content: "";
+	width: 2px;
+	height: 19px;
+	background-color: #C4C4C4;
+	position: absolute;
+	right: 0;
+	top: 3px;
+}
+.footer .wrap ul li:last-child{
+	margin-right: 0;
+	padding-right: 0;
+}
+.footer .wrap ul li:last-child:after{
+	display: none;
+}
+.footer .wrap ul li+li{
+	color: #C4C4C4;
+}
+
+.wrap.wrap-footer p,
+.wrap.wrap-footer ul {
+	margin-bottom: 0;
+}
+
+.item-link-hozi {
+	margin-bottom: 0;
+}
+
+.wrap-footer-bottom > p {
+	margin-bottom: 0;
+}
+
+@media (max-width: 1199px) {
+	.footer-column {
+		margin-bottom: 30px;
+	}
+
+	.footer h5{
+		color: #FFCD00;
+		margin-bottom: 28px;
+	}
+
+	.footer .wrap{
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.logo-footer img {
+		margin-bottom: 10px;
+    	max-width: 250px;
+	}
+}
