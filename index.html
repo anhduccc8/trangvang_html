@@ -76,20 +76,22 @@
 							</div>
 
 							<div class="dropdown-section">
-								<div class="dropdown">
-									<div class="select">
-										<span>Địa Điểm <img src="assets/image/ic_round-keyboard-arrow-down.svg" alt=""></span>
-										<i class="fa fa-chevron-left"></i>
-									</div>
-									<input type="hidden" name="gender">
-									<ul class="dropdown-menu">
-										<li id="male">Hưng Yên</li>
-										<li id="female">Nam Định</li>
-										<li id="female">Hà Nội</li>
-									</ul>
-								</div>
-
-								<span class="msg"></span>
+								<svg width="27" height="36" viewBox="0 0 27 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M13.0846 19.7001C15.5876 19.7001 17.6166 17.4167 17.6166 14.6001C17.6166 11.7834 15.5876 9.50006 13.0846 9.50006C10.5817 9.50006 8.55261 11.7834 8.55261 14.6001C8.55261 17.4167 10.5817 19.7001 13.0846 19.7001Z" stroke="#878787" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M13.0853 1C9.88008 1 6.80614 2.43285 4.5397 4.98335C2.27327 7.53384 1 10.9931 1 14.6C1 17.8164 1.60729 19.921 3.266 22.25L13.0853 35L22.9046 22.25C24.5633 19.921 25.1706 17.8164 25.1706 14.6C25.1706 10.9931 23.8973 7.53384 21.6309 4.98335C19.3645 2.43285 16.2905 1 13.0853 1V1Z" stroke="#878787" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							    <select id="myDropdown" onchange="handleSelectionChange()">
+							        <option value="option1">Địa điểm</option>
+							        <option value="option2">Thành phố Hà Nội</option>
+							        <option value="option3">Thành phố Bắc Giang</option>
+							        <option value="option3">Thành phố Bắc Ninh</option>
+							        <option value="option3">Thành phố Hòa Bình</option>
+							        <option value="option3">Thành phố Thái Bình</option>
+							        <option value="option3">Thành phố Đà Nẵng</option>
+							        <option value="option3">Thành phố Cà Mau</option>
+							        <!-- Add more options as needed -->
+							    </select>
+							    <button class="btn-main btn-search-dropdown" onclick="myFunction()">Tìm kiếm</button>
 							</div>
 						</form>
 					</div>	
@@ -183,7 +185,7 @@
 							<div class="col-12">
 								<div class="wrap-title-section text-center heading-service">
 									<span class="text-behind">service</span>
-									<h2 class="item-section-title">Dịch vụ cung cấp <span class="text-highlight">cho doanh nghiệp </span></h2>
+									<h2 class="item-section-title"><span class="text-highlight">Dịch vụ cung cấp</span> cho doanh nghiệp </h2>
 								</div>
 							</div>
 						</div>
@@ -360,6 +362,7 @@
 							<div class="col-12">
 								<div class="wrap-title-section text-center heading-service">
 									<span class="text-behind">fields</span>
+									<h2 class="item-section-title"><span class="text-highlight">Mục lục</span> ngành nghề</h2>
 								</div>
 							</div>
 						</div>
@@ -430,8 +433,8 @@
 						</div>
 					</div>
 				</section>
-<!-- 
-				<section class="section-product">
+
+<!-- 				<section class="section-product">
 					<div class="container-fluid-ct">
 						<div class="row">
 							<div class="col-12">
@@ -692,7 +695,7 @@
 										<img class="item-image" src="assets/image/update-img.webp" alt="Image">
 										<h5 class="item-title">
 											<span>Đồng Phục Trung Việt </span>
-											<span>Công Ty TNHH Dệt May Trung Việt ví dụ aaaaa</span>
+											<span>Công Ty TNHH Dệt May Trung Việt</span>
 										</h5>
 									</div>
 									<div class="wrap-item">
@@ -1070,7 +1073,7 @@
 							<div class="col-12">
 								<div class="wrap-title-section heading-service">
 									<span class="text-behind style-02">kNOWLEDGE</span>
-									<h2 class="item-section-title">Kiến thức <span class="text-highlight">doanh nghiệp </span></h2>
+									<h2 class="item-section-title"><span class="text-highlight">Kiến thức</span> doanh nghiệp </h2>
 								</div>
 							</div>
 						</div>
@@ -1314,7 +1317,8 @@
 	<script src="assets/owl/dist/owl.carousel.min.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Sonsie+One">
+
 	<script src="assets/js/main.js"></script>
 
 </body>
-</html>
+</html>	
