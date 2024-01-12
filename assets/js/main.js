@@ -54,6 +54,10 @@ $(document).ready(function() {
             }
         }
     });
+
+ if ($('#dropdownAddress').length > 0){
+     $('#dropdownAddress').select2();
+ }
 });
 
 
