@@ -90,6 +90,15 @@
 		margin-bottom: 13px;
 	}
 
+	/* section search */
+	.section-search {
+	    margin-top: 80px;
+	}
+
+	.space-section {
+	    margin-top: 80px;
+	}
+
 }
 
 @media (max-width: 991px) {
@@ -101,6 +110,19 @@
 @media (max-width: 767px) {
 	.form-search input {
 	    width: 75%;
+	}
+
+	.owl-carousel-section {
+		margin-top: -30px;
+	}
+
+	/* section search */
+	.section-search {
+	    margin-top: 60px;
+	}
+
+	.space-section {
+	    margin-top: 60px;
 	}
 
 	.slide-content-box {

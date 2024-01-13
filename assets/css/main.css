@@ -1022,6 +1022,15 @@ padding-right: 112px;
     margin-bottom: 20px;
 }
 
+.item-show-case .number.stroke {
+    color: transparent;
+    text-stroke-color: #FFCD00;
+    -webkit-text-stroke-color: #FFCD00;
+    text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
+    font-family: chakra petch,sans-serif;
+}
+
 .item-show-case .show-case-title {
     color: #FFCD00;
     font-size: 30px;
@@ -1088,37 +1097,6 @@ padding-right: 112px;
     text-align: center;
     margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* section product */
 .section-product h5{
@@ -1212,10 +1190,6 @@ padding-right: 112px;
     line-height: 0;
 }
 
-/*.select2-container {*/
-/*    width: 100% !important;*/
-/*}*/
-
 .select2-container--default .select2-selection--single {
     border-radius: 5px;
     background-color: #ecf0f1;
@@ -1230,7 +1204,18 @@ padding-right: 112px;
     line-height: 40px;
 }
 
+.relative {
+    position: relative;
+}
 
+.link-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
 
 
 

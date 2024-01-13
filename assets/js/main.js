@@ -32,7 +32,7 @@ function navOpen() {
 $(document).ready(function() {
     $('.section-product .owl-carousel').owlCarousel({
         loop: true,
-        nav: false,
+        nav: true,
         dots: false,
         margin: 34,
         navText: [
