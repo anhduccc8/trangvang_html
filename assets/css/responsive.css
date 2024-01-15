@@ -99,11 +99,19 @@
 	    margin-top: 80px;
 	}
 
+	.section-widget-banner-ads .container-fluid-ct {
+	    padding: 40px 0px 40px 30px;
+	}
+
 }
 
 @media (max-width: 991px) {
 	.form-search input {
 	    width: 92%;
+	}
+
+	.grid-item-banner .wrap-item {
+	    padding: 40px 20px 30px;
 	}
 }
 
@@ -180,6 +188,16 @@
 	.row-spacing {
 		margin-top: 10px;
 	}
+
+	.breadcrumb-page {
+	    padding: 40px 0;
+	    font-size: 18px;
+	}
+
+	.item-section-title {
+		font-size: 25px;
+	}
+
 }
 
 

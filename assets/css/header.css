@@ -161,3 +161,34 @@ ul.hsh-menu-list {
     font-size: 16px;
     font-weight: 600;
 }
+
+.bgr-page-title {
+    padding: 45px 0 45px;
+}
+
+.bgr-page-title .slide-form-box {
+    margin-top: 0;
+}
+
+/* Section breadcrumb style */
+.section-breadcrumb .link-home {
+    color: #4D4D4D;
+}
+
+.section-breadcrumb i {
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+.breadcrumb-page {
+    padding: 50px 0;
+    color: #003DA5;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 17px;
+    line-height: 1.4;
+}
+
+.section-breadcrumb .link-home:hover {
+    color: #003DA5;
+}
