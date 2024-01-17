@@ -103,6 +103,11 @@
 	    padding: 40px 0px 40px 30px;
 	}
 
+	.shs-nav-blog-releated .nav-icon i {
+	    font-size: 16px;
+	    margin: 0 5px;
+	}
+
 }
 
 @media (max-width: 991px) {
@@ -113,6 +118,10 @@
 	.grid-item-banner .wrap-item {
 	    padding: 40px 20px 30px;
 	}
+
+	.section-blog-main.style-02 {
+    	margin-top: 40px !important;
+	} 
 }
 
 @media (max-width: 767px) {
@@ -194,10 +203,22 @@
 	    font-size: 18px;
 	}
 
-	.item-section-title {
+	.item-section-title,
+	.shs-item-blog-sidebar .item-post-title {
 		font-size: 25px;
 	}
 
+	.section-banner-blog .row-banner-image > div {
+		margin-bottom: 20px;
+	}
+
+	.section-banner-blog .row-banner-image > div:last-child {
+		margin-bottom: 0px;
+	}
+
+	.section-banner-blog {
+	    margin-bottom: 80px !important;
+	}
 }
 
 
@@ -267,7 +288,6 @@
 	.section-search ul li{
 		min-width: 50%;
 	}
-
 	/* section update */
 	.section-update .wrap-list-update li{
 		min-width: 50%;
@@ -278,16 +298,12 @@
 	.section-update .wrap-list-update li .wrap-item .item-title{
 		margin-top: 15px;
 	}
-
 	.footer .section-more-infomation .wrap{
 		flex-direction: column;		
 	}
 	.footer .section-more-infomation .wrap p{
 		text-align: center;
 	}
-
-
-
 }
 @media screen and (max-width: 767px){
 
@@ -365,5 +381,4 @@
 	.section-service li .wrap-item .item-title{
 		max-width: 100%;
 	}
-
 }

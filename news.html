@@ -3,25 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Xuc Tien Thuong Mai</title>
+	<title>News</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/font/fontawesome-free-6.0.0-web/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/font-family.css">
-	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Sonsie+One">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/header.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Sonsie+One">
 </head>	
+
 <body class="body-main">
 	<!-- Header -->
 	<header>
 		<div id="site-header-wrap" class="header-layout">
-			<div class="site-header-mobile">
-				<div class="container-default">
+			<div class="site-header-main">
+				<div class="container-fluid-ct">
 					<div class="row row-header align-center space-between">
 						<div class="site-branding">
-							<a class="logo-hsh logo-desktop" href="#" title="Mori"><img alt="logo-desktop" src="assets/image/logo-dark.png"></a>
+							<a class="logo-hsh logo-desktop" href="#" title="Mori"><img alt="logo-desktop" src="assets/image/logo-light.png"></a>
 						</div>
 						<div class="header-right shs-menu">
 							<div id="menu-reponsive" class="site-navigation">
@@ -44,261 +50,486 @@
 						<div id="menu-mobile" class="main-menu-mobile">
 							<span class="btn-nav-mobile open-menu" onclick="navOpen()"><span></span></span>
 						</div>
-					</div>		
+					</div>	
 				</div>
 			</div>	
-		</div>
-	</header>	
 
-	<div class="hsh-breadcrumb align-center space-between">
-		<div class="container-default">
-			<div class="row row-header align-center space-between">
-				<div class="hsh-page-title-left">
-					<div class="hsh-icon-home">
-						<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<g clip-path="url(#clip0_2_180)">
-							<path d="M6.66667 16H4L16 4L28 16H25.3333" stroke="#F2F2F2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-							<path d="M6.66666 16V25.3333C6.66666 26.0406 6.94762 26.7189 7.44771 27.219C7.94781 27.719 8.62609 28 9.33333 28H22.6667C23.3739 28 24.0522 27.719 24.5523 27.219C25.0524 26.7189 25.3333 26.0406 25.3333 25.3333V16" stroke="#F2F2F2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-							<path d="M12 28V20C12 19.2928 12.281 18.6145 12.781 18.1144C13.2811 17.6143 13.9594 17.3333 14.6667 17.3333H17.3333C18.0406 17.3333 18.7189 17.6143 19.219 18.1144C19.719 18.6145 20 19.2928 20 20V28" stroke="#F2F2F2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-							</g>
-							<defs>
-							<clipPath id="clip0_2_180">
-							<rect width="32" height="32" fill="white"/>
-							</clipPath>
-							</defs>
-						</svg>
-					</div>
-					<div class="hsh-product-category">
-						<div class="hsh-list-category">
-							<div class="hsh-item-category-item hsh-category-item-active">
-								Tất cả sản phẩm
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<g clip-path="url(#clip0_2_187)">
-									<path d="M6 9L12 15L18 9L6 9Z" stroke="white" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
-									</g>
-									<defs>
-									<clipPath id="clip0_2_187">
-									<rect width="24" height="24" fill="white"/>
-									</clipPath>
-									</defs>
-								</svg>
+			<div class="slide-content bg-img-section bgr-page-title" style="background-image: url('assets/image/page-title-01.jpg');">
+				<div class="container-fluid-ct">
+
+					<div class="row section-form-search">
+						<form class="slide-form-box">
+							<div class="form-search">
+								<button class="btn">
+									<svg width="25" height="25" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M33.8979 31.5561L22.8606 20.5189C24.5734 18.3047 25.4999 15.5974 25.4999 12.7499C25.4999 9.34146 24.1696 6.14547 21.7642 3.73573C19.3587 1.32599 16.1542 0 12.7499 0C9.34571 0 6.14122 1.33024 3.73573 3.73573C1.32599 6.14122 0 9.34146 0 12.7499C0 16.1542 1.33024 19.3587 3.73573 21.7642C6.14122 24.1739 9.34146 25.4999 12.7499 25.4999C15.5974 25.4999 18.3004 24.5734 20.5147 22.8649L31.5519 33.8979C31.5842 33.9302 31.6227 33.9559 31.6649 33.9734C31.7072 33.991 31.7526 34 31.7984 34C31.8441 34 31.8895 33.991 31.9318 33.9734C31.9741 33.9559 32.0125 33.9302 32.0449 33.8979L33.8979 32.0491C33.9302 32.0167 33.9559 31.9783 33.9734 31.936C33.991 31.8937 34 31.8484 34 31.8026C34 31.7568 33.991 31.7115 33.9734 31.6692C33.9559 31.6269 33.9302 31.5885 33.8979 31.5561ZM19.4819 19.4819C17.6799 21.2797 15.2914 22.2699 12.7499 22.2699C10.2085 22.2699 7.81997 21.2797 6.01797 19.4819C4.22023 17.6799 3.22999 15.2914 3.22999 12.7499C3.22999 10.2085 4.22023 7.81572 6.01797 6.01797C7.81997 4.22023 10.2085 3.22999 12.7499 3.22999C15.2914 3.22999 17.6842 4.21598 19.4819 6.01797C21.2797 7.81997 22.2699 10.2085 22.2699 12.7499C22.2699 15.2914 21.2797 17.6842 19.4819 19.4819Z" fill="#878787"/>
+									</svg>
+								</button>
+								        <input class="input" type="type" placeholder="ngành nghề, dịch vụ, tên công ty..." />
 							</div>
-							<ul>
-								<li class="hsh-item-category-item">
-									
-								</li>
+
+							<div class="form-check-box">
+								<input name="gender" type="radio" value="Nam" />
+								Chỉ tìm theo tên công ty
+							</div>
+
+							<div class="dropdown-section">
+								<svg width="27" height="36" viewBox="0 0 27 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M13.0846 19.7001C15.5876 19.7001 17.6166 17.4167 17.6166 14.6001C17.6166 11.7834 15.5876 9.50006 13.0846 9.50006C10.5817 9.50006 8.55261 11.7834 8.55261 14.6001C8.55261 17.4167 10.5817 19.7001 13.0846 19.7001Z" stroke="#878787" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M13.0853 1C9.88008 1 6.80614 2.43285 4.5397 4.98335C2.27327 7.53384 1 10.9931 1 14.6C1 17.8164 1.60729 19.921 3.266 22.25L13.0853 35L22.9046 22.25C24.5633 19.921 25.1706 17.8164 25.1706 14.6C25.1706 10.9931 23.8973 7.53384 21.6309 4.98335C19.3645 2.43285 16.2905 1 13.0853 1V1Z" stroke="#878787" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<select id="dropdownAddress" onchange="handleSelectionChange()">
+									<option value="option1">Địa điểm</option>
+									<option value="option2">Thành phố Hà Nội</option>
+									<option value="option3">Thành phố Bắc Giang</option>
+									<option value="option3">Thành phố Bắc Ninh</option>
+									<option value="option3">Thành phố Hòa Bình</option>
+									<option value="option3">Thành phố Thái Bình</option>
+									<option value="option3">Thành phố Đà Nẵng</option>
+									<option value="option3">Thành phố Cà Mau editttt</option>
+									<!-- Add more options as needed -->
+								</select>
+								<button class="btn-main btn-search-dropdown" onclick="myFunction()">Tìm kiếm</button>
+							</div>
+						</form>
+					</div>	
+				</div>
+			</div>
+
+			<div class="container-fluid section-table-of-contents">
+				<div class="container-fluid-ct">
+					<div class="row row-table-of-contents">
+						<div class="table-of-contents">
+							<ul class="list-of-contents">
+								<span class="table-of-contents-title">
+									Mục lục
+								</span>
+								<li><a class="box-link-table" href="#">A</a></li>
+								<li><a class="box-link-table" href="#">B</a></li>
+								<li><a class="box-link-table" href="#">C</a></li>
+								<li><a class="box-link-table" href="#">D</a></li>
+								<li><a class="box-link-table" href="#">E</a></li>
+								<li><a class="box-link-table" href="#">F</a></li>
+								<li><a class="box-link-table" href="#">G</a></li>
+								<li><a class="box-link-table" href="#">H</a></li>
+								<li><a class="box-link-table" href="#">I</a></li>
+								<li><a class="box-link-table" href="#">J</a></li>
+								<li><a class="box-link-table" href="#">K</a></li>
+								<li><a class="box-link-table" href="#">L</a></li>
+								<li><a class="box-link-table" href="#">M</a></li>
+								<li><a class="box-link-table" href="#">N</a></li>
+								<li><a class="box-link-table" href="#">O</a></li>
+								<li><a class="box-link-table" href="#">P</a></li>
+								<li><a class="box-link-table" href="#">Q</a></li>
+								<li><a class="box-link-table" href="#">R</a></li>
+								<li><a class="box-link-table" href="#">S</a></li>
+								<li><a class="box-link-table" href="#">T</a></li>
+								<li><a class="box-link-table" href="#">U</a></li>
+								<li><a class="box-link-table" href="#">V</a></li>
+								<li><a class="box-link-table" href="#">W</a></li>
+								<li><a class="box-link-table" href="#">X</a></li>
+								<li><a class="box-link-table" href="#">Y</a></li>
+								<li><a class="box-link-table" href="#">Z</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<div class="hsh-page-title-right hsh-icon-social">
-					<a href="#" class="item-icon-socials icon-facebook">
-						<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<g clip-path="url(#clip0_2_183)">
-							<path d="M4 26.6667L5.73333 21.4667C4.23526 19.251 3.69332 16.6272 4.20829 14.0831C4.72326 11.5389 6.26008 9.24757 8.53302 7.63504C10.806 6.02251 13.6603 5.19853 16.5655 5.31632C19.4706 5.43411 22.2287 6.48565 24.327 8.27542C26.4254 10.0652 27.7212 12.4714 27.9734 15.0467C28.2257 17.6219 27.4173 20.191 25.6985 22.2762C23.9797 24.3614 21.4675 25.8208 18.6291 26.3831C15.7906 26.9455 12.8189 26.5724 10.2667 25.3333L4 26.6667" stroke="#F2F2F2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-							<path d="M10.6667 17.3333L14.6667 14.6667L17.3334 17.3333L21.3334 14.6667" stroke="#F2F2F2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-							</g>
-							<defs>
-							<clipPath id="clip0_2_183">
-							<rect width="32" height="32" fill="white"/>
-							</clipPath>
-							</defs>
-						</svg>
-					</a>
-				</div>
-			</div>		
-		</div>
-	</div>
+			</div>
 
-	<div class="shs-page-title">
-		<div class="shs-slide container-default">
-		  	<div class="slider-content slide-page-new">
-		    	<img class="bgr-img" alt="img-slide1" src="assets/image/bgr-pagetitle-03.jpg" style="width:100%">
-		    	<div class="shs-slide content-middle">
-					<div class="shs-heading-meta">
-						<h3 class="shs-heading t-shadow color-white mw-400">XÚC TIẾN THƯƠNG MẠI</h3>
-					</div>
-				</div>
-		  	</div>
-		</div>
-	</div>
-
-	<main class="site-content pt-20 pb-30">
-		<div class="container-default">
-			<div class="row row-custom">
-				<div class="col-xs-12 col-lg-9 shs-item-blog-sidebar">
-					<h4 class="item-post-title">cập nhật thị trường</h4>
-					<div class="hsh-blog-column">
-						<div class="item-post-content">
-							<img alt="img-blog-01" src="assets/image/img-post-main-01.jpg" style="width:100%">
-							<h6 class="item-blog-title">Tiêu Đề Bài Báo</h6>
-							<div class="item-post-description">
-								Cổng thông tin quốc gia về đăng ký doanh nghiệp được chính thức giới thiệu với cộng đồng và xã hội với tư cách là một cổng thông tin điện tử được sử dụng để các tổ chức.
-							</div>
-						</div>
-						<div class="hsh-blog-releated">
-							<h6 class="hsh-blog-releated-title">Tin Liên Quan</h6>
-							<div class="shs-nav-blog-releated row">
-								<a href="#" class="nav-icon"><i class="fa-solid fa-angle-left"></i></a>
-								<a href="#" class="nav-image"><img alt="img-blog-01" src="assets/image/img-nav-image-01.jpg"></a>
-								<a href="#" class="nav-image"><img alt="img-blog-01" src="assets/image/img-nav-image-01.jpg"></a>
-								<a href="#" class="nav-image"><img alt="img-blog-01" src="assets/image/img-nav-image-01.jpg"></a>
-								<a href="#" class="nav-image"><img alt="img-blog-01" src="assets/image/img-nav-image-01.jpg"></a>
-								<a href="#" class="nav-icon"><i class="fa-solid fa-angle-right"></i></a>	
-							</div>
-						</div>
-					</div>
-					<div class="hsh-blog-column mt-70">
-						<div class="item-post-content">
-							<img alt="img-blog-01" src="assets/image/img-post-main-01.jpg" style="width:100%">
-							<h6 class="item-blog-title">Tiêu Đề Bài Báo</h6>
-							<div class="item-post-description">
-								Cổng thông tin quốc gia về đăng ký doanh nghiệp được chính thức giới thiệu với cộng đồng và xã hội với tư cách là một cổng thông tin điện tử được sử dụng để các tổ chức.
-							</div>
-						</div>
-						<div class="hsh-blog-releated">
-							<h6 class="hsh-blog-releated-title">Tin Liên Quan</h6>
-							<div class="shs-nav-blog-releated row">
-								<a href="#" class="nav-icon"><i class="fa-solid fa-angle-left"></i></a>
-								<a href="#" class="nav-image"><img alt="img-blog-01" src="assets/image/img-nav-image-01.jpg"></a>
-								<a href="#" class="nav-image"><img alt="img-blog-01" src="assets/image/img-nav-image-01.jpg"></a>
-								<a href="#" class="nav-image"><img alt="img-blog-01" src="assets/image/img-nav-image-01.jpg"></a>
-								<a href="#" class="nav-image"><img alt="img-blog-01" src="assets/image/img-nav-image-01.jpg"></a>
-								<a href="#" class="nav-icon"><i class="fa-solid fa-angle-right"></i></a>	
-							</div>
+			<div class="container-fluid section-breadcrumb">
+				<div class="container-fluid-ct">	
+					<div class="row-breadcrumb">
+						<div class="breadcrumb-page">
+							<a class="link-home" href="#">Trang chủ</a>
+							<i class="fa-solid fa-angle-right"></i>
+							<span> Tin tức</span>
 						</div>
 					</div>
 				</div>
-
-				<div class="col-xs-12 col-lg-3 shs-blog-sidebar">
-					<h6 class="item-blog-title">Tin mới nhất </h6>
-					<div class="item-post item">
-						<img alt="img-blog-01" src="assets/image/img-post-sb-01.jpg" style="width:100%">
-						<div class="blog-title">Tiêu Đề Bài Báo </div>
-					</div>
-					<div class="item-post item">
-						<img alt="img-blog-01" src="assets/image/img-post-sb-01.jpg" style="width:100%">
-						<div class="blog-title">Tiêu Đề Bài Báo </div>
-					</div>
-					<div class="item-post item">
-						<img alt="img-blog-01" src="assets/image/img-post-sb-01.jpg" style="width:100%">
-						<div class="blog-title">Tiêu Đề Bài Báo </div>
-					</div>
-					<div class="item-post item">
-						<img alt="img-blog-01" src="assets/image/img-post-sb-01.jpg" style="width:100%">
-						<div class="blog-title">Tiêu Đề Bài Báo </div>
-					</div>
-					<div class="item-post item">
-						<img alt="img-blog-01" src="assets/image/img-post-sb-01.jpg" style="width:100%">
-						<div class="blog-title">Tiêu Đề Bài Báo </div>
-					</div>
-					<div class="item-post item">
-						<img alt="img-blog-01" src="assets/image/img-post-sb-01.jpg" style="width:100%">
-						<div class="blog-title">Tiêu Đề Bài Báo </div>
-					</div>
-					<div class="item-post item">
-						<img alt="img-blog-01" src="assets/image/img-post-sb-01.jpg" style="width:100%">
-						<div class="blog-title">Tiêu Đề Bài Báo </div>
-					</div>	
-				</div>
-
 			</div>
 		</div>
-	</main>
-
-	<!-- Footer -->
- 	<footer id="colophon" class="site-footer-main">
-		<div class="shs-footer-main">
-			<div class="container-fluiddd">
-				<div class="container-default">
-					<div class="shs-logo-footer">
-						<img alt="img-logo-footer" src="assets/image/logo-footer.png">
-					</div>
-					<div class="row">
-						<div class="col-lg-8">
-							<div class="shs-content-footer">
-								<h4 class="shs-heading-footer">CÔNG TY TNHH XUẤT NHẬP KHẨU HSH THĂNG LONG</h4>
-								<ul>
-									<li>
-										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<g clip-path="url(#clip0_18_237)">
-											<path d="M24 8V8.01458" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-											<path d="M24 17.3332L19.3334 10.6665C18.8841 9.85459 18.6545 8.93947 18.6672 8.0116C18.6799 7.08374 18.9344 6.17524 19.4057 5.37588C19.877 4.57652 20.5487 3.91395 21.3544 3.45364C22.1602 2.99334 23.0721 2.75122 24 2.75122C24.928 2.75122 25.8399 2.99334 26.6456 3.45364C27.4513 3.91395 28.123 4.57652 28.5943 5.37588C29.0656 6.17524 29.3202 7.08374 29.3329 8.0116C29.3455 8.93947 29.1159 9.85459 28.6667 10.6665L24 17.3332Z" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-											<path d="M14 6.33325L12 5.33325L4 9.33325V26.6666L12 22.6666L20 26.6666L28 22.6666V19.9999" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-											<path d="M12 5.33325V22.6666" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-											<path d="M20 20V26.6667" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-											</g>
-											<defs>
-											<clipPath id="clip0_18_237">
-											<rect width="32" height="32" fill="white"/>
-											</clipPath>
-											</defs>
-										</svg>
-
-										<a class="shs-link hsh-map" href="#">Số nhà 19, ngách 26, ngõ 154 đường Đình Thôn, TDP số 7, <span>Phường Mỹ Đình 1, Quận Nam Từ Liêm, Thành phố Hà Nội, Việt Nam</span> </a>
-									</li>
-									<li>
-										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<g clip-path="url(#clip0_18_233)">
-											<path d="M6.66667 5.3335H12L14.6667 12.0002L11.3333 14.0002C12.7613 16.8955 15.1046 19.2389 18 20.6668L20 17.3335L26.6667 20.0002V25.3335C26.6667 26.0407 26.3857 26.719 25.8856 27.2191C25.3855 27.7192 24.7072 28.0002 24 28.0002C18.799 27.6841 13.8935 25.4755 10.2091 21.7911C6.52467 18.1066 4.31607 13.2011 4 8.00016C4 7.29292 4.28095 6.61464 4.78105 6.11454C5.28115 5.61445 5.95942 5.3335 6.66667 5.3335" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-											<path d="M20 9.3335C20.7072 9.3335 21.3855 9.61445 21.8856 10.1145C22.3857 10.6146 22.6667 11.2929 22.6667 12.0002" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-											<path d="M20 4C22.1217 4 24.1566 4.84286 25.6569 6.34315C27.1571 7.84344 28 9.87827 28 12" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-											</g>
-											<defs>
-											<clipPath id="clip0_18_233">
-											<rect width="32" height="32" fill="white"/>
-											</clipPath>
-											</defs>
-										</svg>
-										<a class="shs-link" href="tel:0987654321">0987.654.321</a>
-									</li>
-									<li>
-										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<g clip-path="url(#clip0_18_246)">
-											<path d="M25.3333 6.6665H6.66667C5.19391 6.6665 4 7.86041 4 9.33317V22.6665C4 24.1393 5.19391 25.3332 6.66667 25.3332H25.3333C26.8061 25.3332 28 24.1393 28 22.6665V9.33317C28 7.86041 26.8061 6.6665 25.3333 6.6665Z" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-											<path d="M4 9.3335L16 17.3335L28 9.3335" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-											</g>
-											<defs>
-											<clipPath id="clip0_18_246">
-											<rect width="32" height="32" fill="white"/>
-											</clipPath>
-											</defs>
-										</svg>
-										<a class="shs-link" href="mailto:info@hshgroup.com">
-											info@hshgroup.com
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="hsh-footer-right">
-								<h4 class="heading-follow-us">Follow us</h4>
-								<a href="#" target="_blank">
-									<img class="img-follow-footer" alt="img-follow-footer" src="assets/image/img-facebook-page.png">
+	</header>
+	<main class="site-content-danh-muc">
+		<div class="container-fluid">
+			<div class="row-custom">
+				<section class="section section-widget-banner-sale">
+					<div class="container-fluid-ct">
+						<div class="row">
+							<div class="col-12 col-lg-3 item-banner-sale">
+								<a href="#">
+									<img src="assets/image/img-banner-sale.png" alt="img-banner-01" style="width:100%">
 								</a>
 							</div>
+							<div class="col-12 col-lg-3 item-banner-sale">
+								<a href="#">
+									<img src="assets/image/img-banner-sale.png" alt="img-banner-02" style="width:100%">
+								</a>
+							</div>
+							<div class="col-12 col-lg-3 item-banner-sale">
+								<a href="#">
+									<img src="assets/image/img-banner-sale.png" alt="img-banner-03" style="width:100%">
+								</a>
+							</div>
+							<div class="col-12 col-lg-3 item-banner-sale">
+								<a href="#">
+									<img src="assets/image/img-banner-sale.png" alt="img-banner-04" style="width:100%">
+								</a>
+							</div>
+						</div>	
+					</div>
+				</section>	
+
+				<div class="section-blog-main container-fluid-ct">
+					<div class="row row-custom">
+						<div class="col-xs-12 col-lg-9 shs-item-blog-sidebar">
+							<h4 class="item-post-title">Thời Sự</h4>
+							<div class="hsh-blog-column">
+								<div class="item-post-content">
+									<img alt="img-blog-01" src="assets/image/img-post-main.jpg" style="width:100%">
+									<h6 class="item-blog-title">Tiêu Đề Bài Báo</h6>
+									<div class="item-post-description">
+										Cổng thông tin quốc gia về đăng ký doanh nghiệp được chính thức giới thiệu với cộng đồng và xã hội với tư cách là một cổng thông tin điện tử được sử dụng để các tổ chức, cá nhân thực hiện đăng ký doanh nghiệp qua mạng, truy cập thông tin về đăng ký doanh nghiệp và phục vụ cho công tác cấp Giấy chứng nhận đăng ký doanh nghiệp của cơ quan đăng ký kinh doanh. Cổng thông tin quốc gia về đăng ký doanh nghiệp đã và đang trở thành một địa chỉ quen 
+									</div>
+									<a class="btn-main btn-round style-03 btn-page-news" href="#">Xem chi tiết</a>
+								</div>
+								<div class="hsh-blog-releated">
+									<h6 class="hsh-blog-releated-title">Tin Liên Quan</h6>
+									<div class="shs-nav-blog-releated row">
+										<a href="#" class="nav-icon"><i class="fa-solid fa-angle-left"></i></a>
+										<a href="#" class="nav-image"><img alt="img-blog-01" src="assets/image/img-nav-image-01.png"></a>
+										<a href="#" class="nav-image"><img alt="img-blog-01" src="assets/image/img-nav-image-02.png"></a>
+										<a href="#" class="nav-image"><img alt="img-blog-01" src="assets/image/img-nav-image-03.png"></a>
+										<a href="#" class="nav-image"><img alt="img-blog-01" src="assets/image/img-nav-image-01.png"></a>
+										<a href="#" class="nav-icon"><i class="fa-solid fa-angle-right"></i></a>	
+									</div>
+								</div>
+							</div>
 						</div>
+
+						<div class="col-xs-12 col-lg-3 shs-blog-sidebar">
+							<h6 class="item-blog-title">Tin mới nhất </h6>
+							<div class="item-post item">
+								<img alt="img-blog-01" src="assets/image/img-post-sb-01.jpg" style="width:100%">
+								<div class="blog-title">Tiêu Đề Bài Báo </div>
+							</div>
+							<div class="item-post item">
+								<img alt="img-blog-01" src="assets/image/img-post-sb-01.jpg" style="width:100%">
+								<div class="blog-title">Tiêu Đề Bài Báo </div>
+							</div>
+							<div class="item-post item">
+								<img alt="img-blog-01" src="assets/image/img-post-sb-01.jpg" style="width:100%">
+								<div class="blog-title">Tiêu Đề Bài Báo </div>
+							</div>
+							<div class="item-post item">
+								<img alt="img-blog-01" src="assets/image/img-post-sb-01.jpg" style="width:100%">
+								<div class="blog-title">Tiêu Đề Bài Báo </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-blog-main container-fluid-ct style-02">
+					<div class="row row-custom">
+						<div class="col-xs-12 col-lg-9 shs-item-blog-sidebar">
+							<div class="hsh-blog-column">
+								<div class="item-post-content">
+									<h4 class="item-section-title item-post-title"><span class="text-highlight">Kiến Thức </span>Doanh Nghiệp</h4>
+									<img alt="img-blog-01" src="assets/image/img-post-main.jpg" style="width:100%">
+									<h6 class="item-blog-title">Tiêu Đề Bài Báo</h6>
+									<div class="item-post-description">
+										Cổng thông tin quốc gia về đăng ký doanh nghiệp được chính thức giới thiệu với cộng đồng và xã hội với tư cách là một cổng thông tin điện tử được sử dụng để các tổ chức, cá nhân thực hiện đăng ký doanh nghiệp qua mạng, truy cập thông tin về đăng ký doanh nghiệp và phục vụ cho công tác cấp Giấy chứng nhận đăng ký doanh nghiệp của cơ quan đăng ký kinh doanh. Cổng thông tin quốc gia về đăng ký doanh nghiệp đã và đang trở thành một địa chỉ quen 
+									</div>
+									<a class="btn-main btn-round style-03 btn-page-news" href="#">Xem chi tiết</a>
+								</div>
+							</div>
+							<div class="gp-blog-releated-02">
+								<div class="row row-blog-releated">
+									<a href="#" class="nav-image-02 col-lg-4">
+										<img alt="img-blog-01" src="assets/image/img-post-03.png" style="width:100%">
+										<div class="title-blog-related">Cổng thông tin quốc gia</div>
+									</a>
+									<a href="#" class="nav-image-02 col-lg-4">
+										<img alt="img-blog-01" src="assets/image/img-post-03.png" style="width:100%">
+										<div class="title-blog-related">Cổng thông tin quốc gia</div>
+									</a>
+									<a href="#" class="nav-image-02 col-lg-4">
+										<img alt="img-blog-01" src="assets/image/img-post-03.png" style="width:100%">
+										<div class="title-blog-related">Cổng thông tin quốc gia</div>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-lg-3 shs-blog-sidebar">
+							<div class="item-post item-banner">
+								<img alt="img-blog-banner-01" src="assets/image/img-banner-sidebar-01.jpg" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>	
+						</div>
+					</div>
+				</div>
+
+				<section class="section-banner-blog container-fluid-ct">
+					<div class="row row-banner-image">
+						<div class="col-xs-12 col-lg-6">
+							<img src="assets/image/img-banner-section-01.jpg" alt="img-banner-04" style="width:100%; min-height: 84px;">
+						</div>
+						<div class="col-xs-12 col-lg-3">
+							<img src="assets/image/img-banner-section-01.jpg" alt="img-banner-04" style="width:100%; min-height: 84px;">
+						</div>
+						<div class="col-xs-12 col-lg-3">
+							<img src="assets/image/img-banner-section-01.jpg" alt="img-banner-04" style="width:100%; min-height: 84px;">
+						</div>
+					</div>
+				</section>
+
+				<div class="section-blog-main container-fluid-ct style-02">
+					<div class="row row-custom">
+						<div class="col-xs-12 col-lg-9 shs-item-blog-sidebar">
+							<div class="hsh-blog-column">
+								<div class="item-post-content">
+									<h4 class="item-section-title item-post-title"><span class="text-highlight">Kỹ Năng</span> Quản Trị</h4>
+									<img alt="img-blog-01" src="assets/image/img-post-main.jpg" style="width:100%">
+									<h6 class="item-blog-title">Tiêu Đề Bài Báo</h6>
+									<div class="item-post-description">
+										Cổng thông tin quốc gia về đăng ký doanh nghiệp được chính thức giới thiệu với cộng đồng và xã hội với tư cách là một cổng thông tin điện tử được sử dụng để các tổ chức, cá nhân thực hiện đăng ký doanh nghiệp qua mạng, truy cập thông tin về đăng ký doanh nghiệp và phục vụ cho công tác cấp Giấy chứng nhận đăng ký doanh nghiệp của cơ quan đăng ký kinh doanh. Cổng thông tin quốc gia về đăng ký doanh nghiệp đã và đang trở thành một địa chỉ quen 
+									</div>
+									<a class="btn-main btn-round style-03 btn-page-news" href="#">Xem chi tiết</a>
+								</div>
+							</div>
+							<div class="gp-blog-releated-02">
+								<div class="row row-blog-releated">
+									<a href="#" class="nav-image-02 col-lg-4">
+										<img alt="img-blog-01" src="assets/image/img-post-03.png" style="width:100%">
+										<div class="title-blog-related">Cổng thông tin quốc gia</div>
+									</a>
+									<a href="#" class="nav-image-02 col-lg-4">
+										<img alt="img-blog-01" src="assets/image/img-post-03.png" style="width:100%">
+										<div class="title-blog-related">Cổng thông tin quốc gia</div>
+									</a>
+									<a href="#" class="nav-image-02 col-lg-4">
+										<img alt="img-blog-01" src="assets/image/img-post-03.png" style="width:100%">
+										<div class="title-blog-related">Cổng thông tin quốc gia</div>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-lg-3 shs-blog-sidebar">
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/banner-marketing.png" style="width:100%">
+							</div>	
+						</div>
+					</div>
+				</div>
+
+				<section class="section-registration-company space-custom-01">
+					<div class="container-fluid-ct">
+						<div class="row mlr-0">
+							<div class="col-12 wrap-item registration-box">
+								<div class="row">
+									<div class="col-xl-8 col-lg-12 item-left">
+										<h2 class="item-section-title">
+											Đăng ký <span class="text-highlight">Trang VÀNG DOANH NGHIỆP</span> <span>để tiếp cận khách hàng đang có nhu cầu mua</span>
+										</h2>
+									</div> 
+									<div class="col-xl-4 col-lg-12 item-right column-btn">
+										<a class="btn-main btn-round mr-20 style-01" href="#">Liên hệ ngay</a>
+										<a class="btn-main btn-round style-02" href="#">Xem Chi Tiết <img src="assets/image/double-icon.svg" alt="double icon"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container-fluid section-table-of-contents style-2 ">
+						<div class="container-fluid-ct">
+							<div class="row row-table-of-contents">
+								<div class="table-of-contents">
+									<ul class="list-of-contents">
+										<span class="table-of-contents-title">
+											Mục lục
+										</span>
+										<li><a class="box-link-table" href="#">A</a></li>
+										<li><a class="box-link-table" href="#">B</a></li>
+										<li><a class="box-link-table" href="#">C</a></li>
+										<li><a class="box-link-table" href="#">D</a></li>
+										<li><a class="box-link-table" href="#">E</a></li>
+										<li><a class="box-link-table" href="#">F</a></li>
+										<li><a class="box-link-table" href="#">G</a></li>
+										<li><a class="box-link-table" href="#">H</a></li>
+										<li><a class="box-link-table" href="#">I</a></li>
+										<li><a class="box-link-table" href="#">J</a></li>
+										<li><a class="box-link-table" href="#">K</a></li>
+										<li><a class="box-link-table" href="#">L</a></li>
+										<li><a class="box-link-table" href="#">M</a></li>
+										<li><a class="box-link-table" href="#">N</a></li>
+										<li><a class="box-link-table" href="#">O</a></li>
+										<li><a class="box-link-table" href="#">P</a></li>
+										<li><a class="box-link-table" href="#">Q</a></li>
+										<li><a class="box-link-table" href="#">R</a></li>
+										<li><a class="box-link-table" href="#">S</a></li>
+										<li><a class="box-link-table" href="#">T</a></li>
+										<li><a class="box-link-table" href="#">U</a></li>
+										<li><a class="box-link-table" href="#">V</a></li>
+										<li><a class="box-link-table" href="#">W</a></li>
+										<li><a class="box-link-table" href="#">X</a></li>
+										<li><a class="box-link-table" href="#">Y</a></li>
+										<li><a class="box-link-table" href="#">Z</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+	<section class="section-infomation">
+		<div class="container-fluid-ct">
+			<div class="row">
+				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 wrap-info-company footer-column">
+					<div class="logo-footer">
+						<a class="logo" href="#"><img src="assets/image/logo.png" alt="Logo"></a>
+					</div>
+					<p class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam</p>
+					<ul class="social-network">
+						<li>
+							<a href="#">
+								<img src="assets/image/Facebook.svg" alt="Facebook">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="assets/image/Twitter.svg" alt="Twitter">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="assets/image/Instagram.svg" alt="Instagram">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="assets/image/LinkedIn.svg" alt="LinkedIn">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="assets/image/Youtube.svg" alt="Youtube">
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 col-xs-12 wrap-link-footer footer-column">
+					<div class="link-of-home">
+						<h5>Trang chủ</h5>
+						<ul class="list-link">
+							<li class="item"><a href="#">Feature</a></li>
+							<li class="item"><a href="#">Pricing</a></li>
+							<li class="item"><a href="#">Case Studies</a></li>
+							<li class="item"><a href="#">Reviews</a></li>
+							<li class="item"><a href="#">Updates</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 col-xs-12 wrap-link-footer footer-column">
+					<div class="link-of-company">
+						<h5>Company</h5>
+						<ul class="list-link">
+							<li class="item"><a href="#">About</a></li>
+							<li class="item"><a href="#">Contact Us</a></li>
+							<li class="item"><a href="#">Careers</a></li>
+							<li class="item"><a href="#">Culture</a></li>
+							<li class="item"><a href="#">Blog</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 col-xs-12 wrap-link-footer footer-column">
+					<div class="link-of-support">
+						<h5>Support</h5>
+						<ul class="list-link">
+							<li class="item"><a href="#">Getting started</a></li>
+							<li class="item"><a href="#">Help center</a></li>
+							<li class="item"><a href="#">Server status</a></li>
+							<li class="item"><a href="#">Report a bug</a></li>
+							<li class="item"><a href="#">Chat support</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 col-xs-12 wrap-link-footer footer-column">
+					<div class="link-of-contact">
+						<h5>Contact Us</h5>
+						<ul class="list-link">
+							<li class="item">
+								<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M18.3333 5.9668V14.3001C18.3333 14.8527 18.1138 15.3826 17.7231 15.7733C17.3324 16.164 16.8025 16.3835 16.25 16.3835H3.74996C3.19743 16.3835 2.66752 16.164 2.27682 15.7733C1.88612 15.3826 1.66663 14.8527 1.66663 14.3001V5.9668" stroke="#FFCD00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M18.3333 5.96663C18.3333 5.4141 18.1138 4.8842 17.7231 4.4935C17.3324 4.10279 16.8025 3.8833 16.25 3.8833H3.74996C3.19743 3.8833 2.66752 4.10279 2.27682 4.4935C1.88612 4.8842 1.66663 5.4141 1.66663 5.96663L8.89579 10.4805C9.2269 10.6875 9.6095 10.7972 9.99996 10.7972C10.3904 10.7972 10.773 10.6875 11.1041 10.4805L18.3333 5.96663Z" stroke="#FFCD00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<a href="mailto:contact@company.com">contact@company.com</a>
+							</li>
+							<li class="item">
+								<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.2515 18.3373L12.2606 18.3436C13.0477 18.8448 13.9822 19.0624 14.9096 18.9605C15.8371 18.8587 16.702 18.4434 17.3616 17.7834L17.9345 17.2105C18.0615 17.0836 18.1622 16.933 18.2309 16.7671C18.2996 16.6013 18.335 16.4236 18.335 16.2441C18.335 16.0646 18.2996 15.8868 18.2309 15.721C18.1622 15.5552 18.0615 15.4045 17.9345 15.2776L15.518 12.8629C15.3911 12.7359 15.2404 12.6352 15.0746 12.5665C14.9088 12.4977 14.731 12.4624 14.5515 12.4624C14.372 12.4624 14.1943 12.4977 14.0284 12.5665C13.8626 12.6352 13.712 12.7359 13.5851 12.8629C13.3288 13.119 12.9814 13.2629 12.6191 13.2629C12.2568 13.2629 11.9093 13.119 11.6531 12.8629L7.78914 8.99801C7.53299 8.74178 7.3891 8.39432 7.3891 8.03202C7.3891 7.66972 7.53299 7.32225 7.78914 7.06603C7.9161 6.93914 8.01682 6.78848 8.08554 6.62266C8.15426 6.45683 8.18963 6.27909 8.18963 6.09959C8.18963 5.92008 8.15426 5.74234 8.08554 5.57652C8.01682 5.41069 7.9161 5.26003 7.78914 5.13314L5.37348 2.7184C5.11726 2.46225 4.76979 2.31836 4.40749 2.31836C4.04519 2.31836 3.69773 2.46225 3.44151 2.7184L2.86765 3.29134C2.2078 3.95098 1.79274 4.816 1.69105 5.74346C1.58936 6.67092 1.80713 7.60533 2.30837 8.39227L2.31384 8.40138C4.96102 12.318 8.33446 15.6908 12.2515 18.3373V18.3373Z" stroke="#FFCD00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<a href="tel:4146875892">(414) 687 - 5892</a>
+							</li>
+							<li class="item">
+								<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M16.8608 9.54249C16.8608 14.9213 11.3516 18.2351 10.2067 18.8663C10.1433 18.9012 10.072 18.9196 9.99961 18.9196C9.92718 18.9196 9.85593 18.9012 9.79251 18.8663C8.64676 18.2351 3.13928 14.9213 3.13928 9.54249C3.13928 5.25451 5.71207 2.25293 10 2.25293C14.288 2.25293 16.8608 5.25451 16.8608 9.54249Z" stroke="#FFCD00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M6.5697 9.11349C6.5697 10.0233 6.93112 10.8958 7.57444 11.5391C8.21776 12.1825 9.09029 12.5439 10.0001 12.5439C10.9099 12.5439 11.7824 12.1825 12.4257 11.5391C13.069 10.8958 13.4305 10.0233 13.4305 9.11349C13.4305 8.20369 13.069 7.33116 12.4257 6.68784C11.7824 6.04452 10.9099 5.68311 10.0001 5.68311C9.09029 5.68311 8.21776 6.04452 7.57444 6.68784C6.93112 7.33116 6.5697 8.20369 6.5697 9.11349V9.11349Z" stroke="#FFCD00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<a href="#">794 Mcallister St San Francisco, 94102</a>
+							</li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-more-infomation">
+		<div class="container-fluid-ct">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="wrap wrap-footer-bottom">
+						<p>Copyright © 2023 INNOCOM</p>
+						<ul class="item-link-hozi">
+							<li class="item">All Rights Reserved </li>
+							<li class="item"><a href="#">Terms and Conditions</a></li>
+							<li class="item"><a href="#">Privacy Policy</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
+	</section>
+</footer>
 
-		<div class="shs-footer-bottom container-default">
-			<div class="row">
-				<div class="col-12 footer-bottom-content"> 
-					@2023 - All rights reserved. Designed by
-					<a href="#" class="footer-by">
-						INNOCOM
-					</a>
-				</div>	
-			</div>
-		</div>
-	</footer>
+<a href="#" class="scroll-top on">
+	<i class="zmdi zmdi-long-arrow-up"></i>
+</a>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="assets/js/main.js"></script>
 
-	<a href="#" class="scroll-top on">
-		<i class="zmdi zmdi-long-arrow-up"></i>
-	</a>
-	<script src="assets/js/main.js"></script>
 </body>
-</html>
+</html>	
