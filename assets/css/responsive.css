@@ -108,6 +108,10 @@
 	    margin: 0 5px;
 	}
 
+	.item.img-column-service {
+	    margin-top: 30px;
+	}
+
 }
 
 @media (max-width: 991px) {
@@ -218,6 +222,23 @@
 
 	.section-banner-blog {
 	    margin-bottom: 80px !important;
+	}
+
+	.row-left {
+	    margin-left: 0 !important;
+	    margin-right: 0 !important;
+	}
+
+	.shs-item-blog-sidebar .item-post-title {
+	    margin: 0 0 20px;
+	}
+
+	.about-service-description {
+	  	padding: 0;
+	}
+
+	.space-custom-02 {
+	    margin-top: 60px;
 	}
 }
 
