@@ -112,6 +112,9 @@
 	    margin-top: 30px;
 	}
 
+	.banner-sidebar {
+    	padding-left: 1% !important;
+	}
 }
 
 @media (max-width: 991px) {
@@ -126,6 +129,23 @@
 	.section-blog-main.style-02 {
     	margin-top: 40px !important;
 	} 
+
+	.section-blog-tag .trending-title {
+	    font-size: 24px;
+	   	transform: translateY(4px);
+	}
+
+	.section-blog-tag .trending-category li a {
+	    font-size: 16px;
+	}
+
+	.banner-sidebar {
+    	padding-left: 15px !important;
+	}
+
+	.row-custom-box-content {
+	    padding: 40px 30px 40px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -239,6 +259,14 @@
 
 	.space-custom-02 {
 	    margin-top: 60px;
+	}
+
+	.space-custom-05 {
+	    margin-top: 40px !important;
+	}
+
+	.row-custom-box-content {
+	    padding: 30px 15px 30px;
 	}
 }
 

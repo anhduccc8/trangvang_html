@@ -181,6 +181,13 @@ ul li {
 .space-custom-03 {
     margin-top: 25px !important;
 }
+.space-custom-04 {
+    margin-top: 50px !important;
+}
+.space-custom-05 {
+    margin-top: 70px !important;
+}
+
 @media (max-width: 1199px) {
     .none-lg {
         display: none;
@@ -1609,3 +1616,96 @@ padding-right: 112px;
     margin: 10px 0 5px;
 }
 
+/* Style Service Page */
+.section-blog-service .item-post-title {
+    text-align: center; 
+    display: block;
+    margin-top: -10px;
+}
+
+.item-post-title.style-02 {
+    color: #003DA5;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 150%; /* 45px */
+    text-transform: uppercase;
+}
+
+.row-custom-box-content {
+    border: 1px solid rgba(77, 77, 77, 0.1);
+    border-radius: 15px;
+    padding: 50px 60px 50px;
+    margin: 50px 0 50px !important;
+}
+
+.banner-sidebar {
+    padding-left: 4% !important;
+}
+
+/* Style Service Page */
+.section-blog-carousel .item-title {
+    color: #4D4D4D;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-blog-carousel .owl-carousel .owl-stage-outer .owl-stage .owl-item .wrap-item {
+    border: none;
+}
+
+.section-blog-carousel .wrap-item .wrap-image {
+    border-radius: 12px;
+    border: 1px solid #000;
+    overflow: hidden;
+}   
+.section-blog-carousel .wrap-item .wrap-image img,
+.section-blog-carousel .wrap-item .item-title {
+    transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
+}  
+
+.section-blog-carousel .wrap-item:hover .wrap-image img {
+    transform: scale(1.05);
+}
+
+.section-blog-carousel .wrap-item:hover .item-title {
+    color: #003DA5;
+}
+
+.section-blog-carousel .item-section-title {
+    margin-bottom: -20px;
+}
+
+.section-blog-tag {
+    margin-top: 10px;
+}
+
+.section-blog-tag .trending-title {
+    color: #003DA5;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 5px 0 0;
+    padding: 0;
+    transform: translateY(4px);
+}
+
+.section-blog-tag .box-link {
+    background-color: #FFCD00;
+    margin: 10px 5px 10px;
+}
+
+.section-blog-tag .trending-category {
+    text-align: left;
+}
+
+.section-blog-tag .box-link:hover {
+    background-color: #003DA5;
+} 
+
+.section-blog-tag .trending-category li a {
+    font-size: 20px;
+}
+
+.section-blog-tag .trending-category {
+    margin-bottom: 0;
+}
