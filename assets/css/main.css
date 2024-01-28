@@ -2156,7 +2156,9 @@ padding-right: 112px;
     top: 0;
 }
 
-
+.widget-banner-info .container-fluid-ct {
+    padding: 0 !important;
+}
 
 
 
