@@ -2387,3 +2387,36 @@ padding-right: 112px;
     margin-top: 0 !important;
 }
 
+.error-des {
+    color: #003DA5;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 700px;
+    margin: 50px auto 0;
+}
+
+.site-content-error {
+    padding: 0 0 150px;
+}
+
+.btn-error {
+    height: 50px;
+    line-height: 47px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.btn-error svg {
+    transform: translateY(-2px);
+    margin-right: 5px;
+}
+
+.body-main.error-page .hsh-menu-list li a {
+    color: #fff !important;
+}
+
+.body-main.error-page .hsh-menu-list li {
+    margin-bottom: 0 !important;
+}

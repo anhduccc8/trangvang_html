@@ -218,6 +218,14 @@
 	.box-info-content .item-des {
 		margin: 10px 0 20px !important;
 	}
+
+	.site-content-error {
+	    padding: 0 0 100px;
+	}
+
+	.error-des {
+	    margin: 30px auto 0;
+	}
 }
 
 @media (max-width: 767px) {
@@ -475,12 +483,6 @@
 	    padding-left: 5% !important; 
 	}
 }
-
-
-
-
-
-
 
 @media screen and (max-width: 1440px){
 	/* section search */
