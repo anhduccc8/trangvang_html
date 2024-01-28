@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Danh Mục Doanh Nghiệp</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/font/fontawesome-free-6.0.0-web/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-family.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Sonsie+One">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/header.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Sonsie+One">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Sonsie+One">
+	<link rel="stylesheet" href="assets/owl/dist/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/owl/dist/assets/owl.theme.default.min.css">
+</head>	
+
+<body class="body-main">
+	<!-- Header -->
+	<header>
+		<div id="site-header-wrap" class="header-layout">
+			<div class="site-header-main">
+				<div class="container-fluid-ct">
+					<div class="row row-header align-center space-between">
+						<div class="site-branding">
+							<a class="logo-hsh logo-desktop" href="#" title="Mori"><img alt="logo-desktop" src="assets/image/logo-light.png"></a>
+						</div>
+						<div class="header-right shs-menu">
+							<div id="menu-reponsive" class="site-navigation">
+								<ul class="hsh-menu-list">
+									<li>
+										<a href="#">Trang Chủ</a>
+									</li>
+									<li>
+										<a href="#">Sản Phẩm</a>
+									</li>
+									<li>
+										<a href="#">Lĩnh vực hoạt động</a>
+									</li>
+									<li>
+										<a href="#">Liên hệ</a>
+									</li>		
+								</ul>
+							</div>
+						</div>
+						<div id="menu-mobile" class="main-menu-mobile">
+							<span class="btn-nav-mobile open-menu" onclick="navOpen()"><span></span></span>
+						</div>
+					</div>	
+				</div>
+			</div>	
+
+			<div class="slide-content bg-img-section bgr-page-title" style="background-image: url('assets/image/page-title-01.jpg');">
+				<div class="container-fluid-ct">
+
+					<div class="row section-form-search">
+						<form class="slide-form-box">
+							<div class="form-search">
+								<button class="btn">
+									<svg width="25" height="25" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M33.8979 31.5561L22.8606 20.5189C24.5734 18.3047 25.4999 15.5974 25.4999 12.7499C25.4999 9.34146 24.1696 6.14547 21.7642 3.73573C19.3587 1.32599 16.1542 0 12.7499 0C9.34571 0 6.14122 1.33024 3.73573 3.73573C1.32599 6.14122 0 9.34146 0 12.7499C0 16.1542 1.33024 19.3587 3.73573 21.7642C6.14122 24.1739 9.34146 25.4999 12.7499 25.4999C15.5974 25.4999 18.3004 24.5734 20.5147 22.8649L31.5519 33.8979C31.5842 33.9302 31.6227 33.9559 31.6649 33.9734C31.7072 33.991 31.7526 34 31.7984 34C31.8441 34 31.8895 33.991 31.9318 33.9734C31.9741 33.9559 32.0125 33.9302 32.0449 33.8979L33.8979 32.0491C33.9302 32.0167 33.9559 31.9783 33.9734 31.936C33.991 31.8937 34 31.8484 34 31.8026C34 31.7568 33.991 31.7115 33.9734 31.6692C33.9559 31.6269 33.9302 31.5885 33.8979 31.5561ZM19.4819 19.4819C17.6799 21.2797 15.2914 22.2699 12.7499 22.2699C10.2085 22.2699 7.81997 21.2797 6.01797 19.4819C4.22023 17.6799 3.22999 15.2914 3.22999 12.7499C3.22999 10.2085 4.22023 7.81572 6.01797 6.01797C7.81997 4.22023 10.2085 3.22999 12.7499 3.22999C15.2914 3.22999 17.6842 4.21598 19.4819 6.01797C21.2797 7.81997 22.2699 10.2085 22.2699 12.7499C22.2699 15.2914 21.2797 17.6842 19.4819 19.4819Z" fill="#878787"/>
+									</svg>
+								</button>
+								        <input class="input" type="type" placeholder="ngành nghề, dịch vụ, tên công ty..." />
+							</div>
+
+							<div class="form-check-box">
+								<input name="gender" type="radio" value="Nam" />
+								Chỉ tìm theo tên công ty
+							</div>
+
+							<div class="dropdown-section">
+								<svg width="27" height="36" viewBox="0 0 27 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M13.0846 19.7001C15.5876 19.7001 17.6166 17.4167 17.6166 14.6001C17.6166 11.7834 15.5876 9.50006 13.0846 9.50006C10.5817 9.50006 8.55261 11.7834 8.55261 14.6001C8.55261 17.4167 10.5817 19.7001 13.0846 19.7001Z" stroke="#878787" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M13.0853 1C9.88008 1 6.80614 2.43285 4.5397 4.98335C2.27327 7.53384 1 10.9931 1 14.6C1 17.8164 1.60729 19.921 3.266 22.25L13.0853 35L22.9046 22.25C24.5633 19.921 25.1706 17.8164 25.1706 14.6C25.1706 10.9931 23.8973 7.53384 21.6309 4.98335C19.3645 2.43285 16.2905 1 13.0853 1V1Z" stroke="#878787" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<select id="dropdownAddress" onchange="handleSelectionChange()">
+									<option value="option1">Địa điểm</option>
+									<option value="option2">Thành phố Hà Nội</option>
+									<option value="option3">Thành phố Bắc Giang</option>
+									<option value="option3">Thành phố Bắc Ninh</option>
+									<option value="option3">Thành phố Hòa Bình</option>
+									<option value="option3">Thành phố Thái Bình</option>
+									<option value="option3">Thành phố Đà Nẵng</option>
+									<option value="option3">Thành phố Cà Mau editttt</option>
+									<!-- Add more options as needed -->
+								</select>
+								<button class="btn-main btn-search-dropdown" onclick="myFunction()">Tìm kiếm</button>
+							</div>
+						</form>
+					</div>	
+				</div>
+			</div>
+
+			<div class="container-fluid section-table-of-contents">
+				<div class="container-fluid-ct">
+					<div class="row row-table-of-contents">
+						<div class="table-of-contents">
+							<ul class="list-of-contents">
+								<span class="table-of-contents-title">
+									Mục lục
+								</span>
+								<li><a class="box-link-table" href="#">A</a></li>
+								<li><a class="box-link-table" href="#">B</a></li>
+								<li><a class="box-link-table" href="#">C</a></li>
+								<li><a class="box-link-table" href="#">D</a></li>
+								<li><a class="box-link-table" href="#">E</a></li>
+								<li><a class="box-link-table" href="#">F</a></li>
+								<li><a class="box-link-table" href="#">G</a></li>
+								<li><a class="box-link-table" href="#">H</a></li>
+								<li><a class="box-link-table" href="#">I</a></li>
+								<li><a class="box-link-table" href="#">J</a></li>
+								<li><a class="box-link-table" href="#">K</a></li>
+								<li><a class="box-link-table" href="#">L</a></li>
+								<li><a class="box-link-table" href="#">M</a></li>
+								<li><a class="box-link-table" href="#">N</a></li>
+								<li><a class="box-link-table" href="#">O</a></li>
+								<li><a class="box-link-table" href="#">P</a></li>
+								<li><a class="box-link-table" href="#">Q</a></li>
+								<li><a class="box-link-table" href="#">R</a></li>
+								<li><a class="box-link-table" href="#">S</a></li>
+								<li><a class="box-link-table" href="#">T</a></li>
+								<li><a class="box-link-table" href="#">U</a></li>
+								<li><a class="box-link-table" href="#">V</a></li>
+								<li><a class="box-link-table" href="#">W</a></li>
+								<li><a class="box-link-table" href="#">X</a></li>
+								<li><a class="box-link-table" href="#">Y</a></li>
+								<li><a class="box-link-table" href="#">Z</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid section-breadcrumb">
+				<div class="container-fluid-ct">	
+					<div class="row-breadcrumb">
+						<div class="breadcrumb-page">
+							<a class="link-home" href="#">Trang chủ</a>
+							<i class="fa-solid fa-angle-right"></i>
+							<span> Ngành Nghề</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="site-content-danh-muc">
+		<div class="container-fluid">
+			<div class="row-custom">
+				<section class="section-blog-main container-fluid-ct style-03">
+					<div class="row row-custom">
+						<div class="col-12 col-lg-9">
+							<section class="widget-banner-info mb-30">
+								<div class="container-fluid-ct">
+									<div class="row">
+										<div class="col-12 col-md-6 col-xl-3 item-banner-image-single">
+											<a href="#">
+												<img src="assets/image/img-single-column-01.jpg" alt="img-single-column-01" style="width:100%">
+											</a>
+										</div>
+										<div class="col-12 col-md-6 col-xl-3 item-banner-image-single">
+											<a href="#">
+												<img src="assets/image/img-single-column-01.jpg" alt="img-single-column-02" style="width:100%">
+											</a>
+										</div>
+										<div class="col-12 col-md-6 col-xl-3 item-banner-image-single">
+											<a href="#">
+												<img src="assets/image/img-single-column-01.jpg" alt="img-single-column-03" style="width:100%">
+											</a>
+										</div>
+										<div class="col-12 col-md-6 col-xl-3 item-banner-image-single">
+											<a href="#">
+												<img src="assets/image/img-single-column-01.jpg" alt="img-single-column-04" style="width:100%">
+											</a>
+										</div>
+									</div>	
+								</div>
+							</section>
+							<div class="row row-custom">
+								<div class="col-xs-12 col-lg-3 sidebar-dm-page">  
+									<div class="widget widget-category-list">
+										<h6 class="widget-title-sidebar">Ngành Nghề Liên Quan</h6>
+										<ul class="list-item-category mt-20">
+											<li>
+												<a href="#">May Đồng Phục - Công Ty May Đồng Phục (1057)</a>
+											</li>
+											<li>
+												<a href="#">Quà Tặng Quảng Cáo, Vật Phẩm Quảng Cáo (áo Mưa, Ô Dù, Móc Khóa,.) (342)</a>
+											</li>
+											<li>
+												<a href="#">Áo Phông, áo Thun - Sản Xuất Và Bán Buôn (247)</a>
+											</li>
+											<li>
+												<a href="#">May Quảng Cáo - Nhận Hợp Đồng May Quảng Cáo Theo Yêu Cầu (111)</a>
+											</li>
+										</ul>
+									</div>
+									<div class="widget widget-category-list style-02">
+										<h6 class="widget-title-sidebar">TAG NGÀNH NGHỀ</h6>
+										<ul class="list-item-category mt-30">
+											<li>
+												<a href="#">hệ thống lạnh CN</a>
+											</li>
+											<li>
+												<a href="#">lạnh công nghiệp</a>
+											</li>
+											<li>
+												<a href="#">điện lạnh công nghiệp</a>
+											</li>
+											<li>
+												<a href="#">công ty điện lạnh</a>
+											</li>
+											<li>
+												<a href="#">mua thiết bị điện lạnh công nghiệp</a>
+											</li>
+											<li>
+												<a href="#">thiết bị điện lạnh công nghiệp</a>
+											</li>
+											<li>
+												<a href="#">thiết kế điện lạnh công nghiệp</a>
+											</li>
+										</ul>
+									</div>
+									<div class="widget widget-category-list style-02">
+										<h6 class="widget-title-sidebar">NHÓM NGÀNH NGHỀ</h6>
+										<ul class="list-item-category mt-30">
+											<li>
+												<a href="#">An ninh, An toàn & Bảo vệ</a>
+											</li>
+											<li>
+												<a href="#">Bao bì</a>
+											</li>
+											<li>
+												<a href="#">Bảo hộ lao động</a>
+											</li>
+											<li>
+												<a href="#">Niên Giám Cao Su</a>
+											</li>
+											<li>
+												<a href="#">Cơ khí - Niên Giám Cơ Khí</a>
+											</li>
+											<li>
+												<a href="#">Niên Giám Công Nghiệp</a>
+											</li>
+											<li>
+												<a href="#">Điện</a>
+											</li>
+											<li>
+												<a href="#">Điện Lạnh</a>
+											</li>
+											<li>
+												<a href="#">Đồ gia dụng</a>
+											</li>
+											<li>
+												<a href="#">Doanh nghiệp Cần Dùng</a>
+											</li>
+											<li>
+												<a href="#">Du lịch & Khách sạn</a>
+											</li>
+											<li>
+												<a href="#">Giao nhận & Vận chuyển</a>
+											</li>
+											<li>
+												<a href="#">Giấy - Ngành Giấy</a>
+											</li>
+											<li>
+												<a href="#">Gỗ & Đồ Gỗ</a>
+											</li>
+											<li>
+												<a href="#">Hóa Chất</a>
+											</li>
+											<li>
+												<a href="#">In ấn & Thiết kế</a>
+											</li>
+											<li>
+												<a href="#">May mặc & phụ liệu</a>
+											</li>
+											<li>
+												<a href="#">Máy Móc</a>
+											</li>
+											<li>
+												<a href="#">Môi Trường</a>
+											</li>
+											<li>
+												<a href="#">Nhựa</a>
+											</li>
+											<li>
+												<a href="#">Nội Thất & Ngoại Thất</a>
+											</li>
+											<li>
+												<a href="#">Nông nghiệp</a>
+											</li>
+											<li>
+												<a href="#">Ô tô & Xe máy</a>
+											</li>
+											<li>
+												<a href="#">Quà Tặng</a>
+											</li>
+											<li>
+												<a href="#">Quảng cáo & truyền thông</a>
+											</li>
+											<li>
+												<a href="#">Sức khỏe & Thiết bị y tế</a>
+											</li>
+											<li>
+												<a href="#">Thép & Inox</a>
+											</li>
+											<li>
+												<a href="#">Thủ công mỹ nghệ</a>
+											</li>
+											<li>
+												<a href="#">Thực phẩm & Đồ uống</a>
+											</li>
+											<li>
+												<a href="#">Thiết Bị Văn Phòng & VPP</a>
+											</li>
+											<li>
+												<a href="#">Vật Liệu Xây Dựng</a>
+											</li>
+											<li>
+												<a href="#">Viễn thông</a>
+											</li>
+											<li>
+												<a href="#">Xây Dựng</a>
+											</li>
+											<li>
+												<a href="#">Xuất Nhập Khẩu</a>
+											</li>
+										</ul>
+									</div>
+									<div class="widget widget-category-list style-03 border-none">
+										<h6 class="widget-title-sidebar">Tỉnh/ Thành Phố</h6>
+										<ul class="list-item-category mt-30">
+											<li>
+												<a href="#">Hà Nội</a>
+											</li>
+											<li>
+												<a href="#">Tp. Hồ Chí Minh (TPHCM)</a>
+											</li>
+											<li>
+												<a href="#">Đồng Nai</a>
+											</li>
+											<li>
+												<a href="#">Bình Dương</a>
+											</li>
+											<li>
+												<a href="#">Tp. Đà Nẵng</a>
+											</li>
+											<li>
+												<a href="#">Tp. Hải Phòng</a>
+											</li>
+											<li>
+												<a href="#">Đồng Tháp</a>
+											</li>
+											<li>
+												<a href="#">Bà Rịa-Vũng Tàu</a>
+											</li>
+											<li>
+												<a href="#">Bắc Ninh</a>
+											</li>
+											<li>
+												<a href="#">Bình Thuận</a>
+											</li>
+											<li>
+												<a href="#">Hòa Bình</a>
+											</li>
+											<li>
+												<a href="#">Khánh Hòa</a>
+											</li>
+											<li>
+												<a href="#">Nam Định</a>
+											</li>
+											<li>
+												<a href="#">Nghệ An</a>
+											</li>
+											<li>
+												<a href="#">Thái Bình</a>
+											</li>
+											<li>
+												<a href="#">Thái Nguyên</a>
+											</li>
+											<li>
+												<a href="#">Thừa Thiên Huế</a>
+											</li>
+											<li>
+												<a href="#">TP. Cần Thơ</a>
+											</li>
+											<li>
+												<a href="#">Vĩnh Phúc</a>
+											</li>
+											<li>
+												<a href="#">Đắk Lắk</a>
+											</li>
+											<li>
+												<a href="#">Bạc Liêu</a>
+											</li>
+											<li>
+												<a href="#">Bắc Giang</a>
+											</li>
+											<li>
+												<a href="#">Bình Định</a>
+											</li>
+											<li>
+												<a href="#">Bến Tre</a>
+											</li>
+											<li>
+												<a href="#">Hà Nam</a>
+											</li>
+											<li>
+												<a href="#">Hải Dương</a>
+											</li>
+											<li>
+												<a href="#">Ninh Bình</a>
+											</li>
+											<li>
+												<a href="#">Quảng Bình</a>
+											</li>
+											<li>
+												<a href="#">Quảng Nam</a>
+											</li>
+											<li>
+												<a href="#">Quảng Ngãi</a>
+											</li>
+											<li>
+												<a href="#">Tây Ninh</a>
+											</li>
+											<li>
+												<a href="#">Tiền Giang</a>
+											</li>
+											<li>
+												<a href="#">Đồng</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-xs-12 col-lg-9 column-contet-box-main">	
+									<form class="row filter-box mb-30">
+										<div class="filter-label">
+											<svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path id="Vector" d="M5.68943 10C5.45983 10 5.26723 9.94 5.11164 9.82C4.95604 9.7 4.87852 9.55167 4.87906 9.375V5.625L0.178899 1C-0.0236942 0.791666 -0.0542182 0.572917 0.0873269 0.34375C0.228872 0.114583 0.475495 0 0.827197 0H12.1724C12.5236 0 12.7702 0.114583 12.9123 0.34375C13.0544 0.572917 13.0238 0.791666 12.8207 1L8.12055 5.625V9.375C8.12055 9.55208 8.04275 9.70062 7.88716 9.82062C7.73157 9.94062 7.53924 10.0004 7.31018 10H5.68943ZM6.4998 5.1875L10.5111 1.25H2.48846L6.4998 5.1875Z" fill="#003DA5"/>
+											</svg>
+											Lọc theo : 
+										</div>		
+										<div class="dropdown-section">
+											<select id="dropdownAddress" onchange="handleSelectionChange()">
+												<option value="option1">Ngành Nghề</option>
+												<option value="option2">Thành phố Hà Nội</option>
+												<option value="option3">Thành phố Bắc Giang</option>
+												<option value="option4">Thành phố Bắc Ninh</option>
+												<option value="option5">Thành phố Hòa Bình</option>
+												<option value="option6">Thành phố Thái Bình</option>
+												<option value="option7">Thành phố Đà Nẵng</option>
+												<option value="option8">Thành phố Cà Mau editttt</option>
+											</select>
+										</div>
+										<div class="dropdown-section">
+											<select id="dropdownAddress" onchange="handleSelectionChange()">
+												<option value="option1">Tỉnh Thành</option>
+												<option value="option2">Thành phố Hà Nội</option>
+												<option value="option3">Thành phố Bắc Giang</option>
+												<option value="option4">Thành phố Bắc Ninh</option>
+												<option value="option5">Thành phố Hòa Bình</option>
+												<option value="option6">Thành phố Thái Bình</option>
+												<option value="option7">Thành phố Đà Nẵng</option>
+												<option value="option8">Thành phố Cà Mau editttt</option>
+											</select>
+										</div>
+									</form>
+
+									<h2 class="title-main color-main text-center">Điện Lạnh - Thiết bị điện lạnh</h2>
+									<div class="text-result">(Tìm thấy <span>386</span> kết quả)</div>
+
+									<div class="widget-box-info mb-30 mt-40">
+										<div class="box-info-content">
+											<h3 class="box-cate-title color-main fs-20">
+												Đồng Phục Trung Việt  - Công Ty TNHH Dệt May Trung Việt 
+												<svg width="31" height="28" viewBox="0 0 31 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path id="Vector" d="M30.8591 13.9933L27.5277 10.2742L27.9919 5.35117L23.0632 4.25418L20.4827 0L15.8407 1.95318L11.1986 0L8.61818 4.25418L3.68942 5.33779L4.15362 10.2609L0.822266 13.9933L4.15362 17.7124L3.68942 22.6488L8.61818 23.7458L11.1986 28L15.8407 26.0334L20.4827 27.9866L23.0632 23.7324L27.9919 22.6354L27.5277 17.7124L30.8591 13.9933ZM13.1101 20.6823L7.64881 15.3311L9.5739 13.4448L13.1101 16.8963L22.1074 8.08027L24.0325 9.97993L13.1101 20.6823Z" fill="#FFCD00"/>
+												</svg>
+											</h3>
+											<div class="sub-cate-title">
+												Được Tài Trợ
+												<svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M8.19536 0C12.6192 0 16.2052 3.35775 16.2052 7.5C16.2052 11.6423 12.6192 15 8.19536 15C3.77154 15 0.185547 11.6423 0.185547 7.5C0.185547 3.35775 3.77154 0 8.19536 0ZM8.19536 1.5C6.49589 1.5 4.86603 2.13214 3.66433 3.25736C2.46262 4.38258 1.78751 5.9087 1.78751 7.5C1.78751 9.0913 2.46262 10.6174 3.66433 11.7426C4.86603 12.8679 6.49589 13.5 8.19536 13.5C9.89483 13.5 11.5247 12.8679 12.7264 11.7426C13.9281 10.6174 14.6032 9.0913 14.6032 7.5C14.6032 5.9087 13.9281 4.38258 12.7264 3.25736C11.5247 2.13214 9.89483 1.5 8.19536 1.5ZM7.06278 4.31775C7.34635 4.0524 7.72588 3.89625 8.12642 3.88014C8.52696 3.86403 8.91939 3.98914 9.22623 4.23075L9.32795 4.31775L11.5939 6.4395C11.8773 6.70503 12.0441 7.0604 12.0613 7.43545C12.0785 7.8105 11.9449 8.17795 11.6868 8.46525L11.5939 8.5605L9.32795 10.6823C9.04437 10.9476 8.66484 11.1038 8.2643 11.1199C7.86376 11.136 7.47133 11.0109 7.1645 10.7692L7.06278 10.6823L4.7968 8.5605C4.51341 8.29497 4.34664 7.9396 4.32944 7.56455C4.31224 7.18951 4.44585 6.82205 4.70388 6.53475L4.7968 6.4395L7.06278 4.31775ZM8.19536 5.379L5.93019 7.5L8.19536 9.621L10.4605 7.5L8.19536 5.379Z" fill="#FFCD00"/>
+												</svg>
+											</div>
+											<div class="row flex-content-box mt-30">
+												<div class="col-12 col-lg-6 column-img-box">
+													<div class="wrap-box-img">
+														<img src="assets/image/img-box-column.png" alt="img-banner-01" style="width:100%">	
+														<span class="text-style-box">Đã Xác Thực</span>
+													</div>
+													<div class="hsh-blog-releated mt-20">
+														<div class="shs-nav-blog-releated row">
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-01.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-02.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-03.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-04.png"></a>	
+														</div>
+													</div>
+												</div>
+												<div class="col-12 col-lg-6 column-content-box">
+													<div class="box-info-des">
+														<label>Địa chỉ: </label>
+														<span class="info-des-normal" href="#">2C, Đường Nguyễn Thị Minh Khai, Phường Đakao, Quận 1, Tp. HCM</span>
+													</div>
+													<div class="box-info-des">
+														<label>Mã số thuế:</label>
+														<span class="info-des-normal" href="#">0305482862-009</span>
+													</div>
+													<div class="box-info-des">  
+														<label>Điện thoại: </label>
+														<span class="info-des-normal" href="#">(024) 38262938</span>
+													</div>
+													<div class="box-info-des">
+														<label>Sản phẩm chính: </label>   
+														<span class="info-des-normal" href="#">Camera Quan Sát - Phân Phối Và Lắp Đặt Hệ Thống Camera</span>
+													</div>
+													<div class="box-info-des lh-1">
+														<label>Ngành nghề kinh doanh: </label>
+														<a class="info-link" href="#">Áo Phông Đồng Phục; </a>
+														<a class="info-link" href="#">Đồng Phục Công Sở; </a>
+														<a class="info-link" href="#">Đồng Phục Văn Phòng; </a>
+													</div>
+												</div>
+											</div>
+											<div class="item-des mt-40 mb-40">
+												Hơn 10 năm kinh nghiệm, là một trong ít Công ty có xưởng may trực tiếp, mang đến những "Dịch vụ và Sản phẩm Chất lượng nhất với Giá thành hợp lý nhất".Các dòng sản phẩm chính: Áo thun đồng phục công ty, doanh nghiệp, đồng phục nhà hàng, đồng phục quán cafe, đồng phục học sinh oversize, đồng phục họp lớp, đồng phục đi biển,..
+											</div>
+											<a class="btn-text btn-box-text-dm" href="#">Xem Thêm <img src="assets/image/double-icon.svg" alt="double icon"></a>
+											<div class="space-between row-btn-info btn-box-dm">
+		 										<a class="btn-main btn-round style-04" href="tel:02438262938">
+			 										<svg width="16" height="16" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M20.0887 26.5983C18.206 26.529 12.8701 25.7918 7.28194 20.206C1.69507 14.619 0.958955 9.28558 0.888351 7.40188C0.783752 4.53124 2.98294 1.74295 5.52338 0.654044C5.8293 0.521972 6.1643 0.471688 6.49553 0.508126C6.82675 0.544565 7.14281 0.666474 7.41269 0.861891C9.50466 2.3861 10.9481 4.69203 12.1876 6.50514C12.4603 6.90348 12.5769 7.38822 12.5152 7.86699C12.4535 8.34575 12.2177 8.78508 11.8529 9.10126L9.302 10.9954C9.17876 11.0844 9.09201 11.2151 9.05786 11.3632C9.02371 11.5113 9.04449 11.6667 9.11634 11.8007C9.69424 12.8504 10.7219 14.4138 11.8987 15.5903C13.0767 16.7668 14.7137 17.8622 15.8368 18.5054C15.9776 18.5844 16.1434 18.6065 16.3 18.5671C16.4566 18.5277 16.5922 18.4298 16.6788 18.2936L18.3393 15.7667C18.6446 15.3613 19.0949 15.0897 19.596 15.0088C20.0971 14.9279 20.6101 15.044 21.0275 15.3328C22.8671 16.606 25.014 18.0243 26.5856 20.0361C26.7969 20.3079 26.9314 20.6314 26.9748 20.9729C27.0183 21.3144 26.9692 21.6613 26.8327 21.9773C25.7384 24.5303 22.9691 26.7042 20.0887 26.5983Z" fill="#003DA5"/>
+													</svg>
+													(024) 38262938
+												</a>
+		 										<a class="btn-main btn-round style-04" href="mailto:abc@gmail.com">
+		 											<svg width="19" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path id="Vector" d="M3.20234 19.4694C2.48444 19.4694 1.86966 19.2391 1.35799 18.7786C0.846327 18.3181 0.590929 17.7652 0.591799 17.1199V3.02295C0.591799 2.37684 0.847632 1.82354 1.3593 1.36304C1.87097 0.902539 2.48531 0.672681 3.20234 0.673464H24.0867C24.8046 0.673464 25.4194 0.903714 25.931 1.36421C26.4427 1.82471 26.6981 2.37763 26.6972 3.02295V17.1199C26.6972 17.766 26.4414 18.3193 25.9297 18.7798C25.4181 19.2403 24.8037 19.4702 24.0867 19.4694H3.20234ZM24.0867 5.37244L14.3298 10.8644C14.221 10.9231 14.1066 10.9674 13.9865 10.9971C13.8664 11.0269 13.7524 11.0414 13.6445 11.0406C13.5357 11.0406 13.4213 11.0261 13.3012 10.9971C13.1811 10.9681 13.0672 10.9239 12.9593 10.8644L3.20234 5.37244V17.1199H24.0867V5.37244ZM13.6445 8.89668L24.0867 3.02295H3.20234L13.6445 8.89668ZM3.20234 5.66613V3.93338V3.96275V3.94865V5.66613Z" fill="#003DA5"/>
+													</svg>
+			 										abc@gmail.com
+			 									</a>
+		 										<a class="btn-main btn-round style-04" href="#">
+		 											<svg width="20" height="25" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g id="Group">
+														<path id="Vector" d="M27.1931 14.5935C27.1931 7.38452 21.4166 1.54082 14.2904 1.54082C7.16423 1.54082 1.3877 7.38452 1.3877 14.5935C1.3877 21.8026 7.16423 27.6463 14.2904 27.6463" stroke="#003DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+														<path id="Vector_2" d="M15.5813 1.60574C15.5813 1.60574 19.4521 6.76157 19.4521 14.5932M13.0007 27.5807C13.0007 27.5807 9.12992 22.4248 9.12992 14.5932C9.12992 6.76157 13.0007 1.60574 13.0007 1.60574M2.20117 19.1617H14.291M2.20117 10.0247H26.3808" stroke="#003DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+														<path id="Vector_3" d="M27.0363 22.3167C27.6737 22.7135 27.6337 23.6781 26.9782 23.7538L23.6661 24.1336L22.181 27.1514C21.8868 27.7505 20.9772 27.4568 20.8262 26.7154L19.207 18.7324C19.0792 18.1059 19.6366 17.7117 20.1747 18.0471L27.0363 22.3167Z" stroke="#003DA5" stroke-width="2"/>
+														</g>
+													</svg>
+			 										www.abc.com
+			 									</a>
+		 									</div>
+										</div>
+									</div>
+
+									<div class="widget-box-info mb-30">
+										<div class="box-info-content">
+											<h3 class="box-cate-title color-main fs-20">
+												Đồng Phục Trung Việt  - Công Ty TNHH Dệt May Trung Việt 
+												<svg width="31" height="28" viewBox="0 0 31 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path id="Vector" d="M30.8591 13.9933L27.5277 10.2742L27.9919 5.35117L23.0632 4.25418L20.4827 0L15.8407 1.95318L11.1986 0L8.61818 4.25418L3.68942 5.33779L4.15362 10.2609L0.822266 13.9933L4.15362 17.7124L3.68942 22.6488L8.61818 23.7458L11.1986 28L15.8407 26.0334L20.4827 27.9866L23.0632 23.7324L27.9919 22.6354L27.5277 17.7124L30.8591 13.9933ZM13.1101 20.6823L7.64881 15.3311L9.5739 13.4448L13.1101 16.8963L22.1074 8.08027L24.0325 9.97993L13.1101 20.6823Z" fill="#FFCD00"/>
+												</svg>
+											</h3>
+											<div class="sub-cate-title">
+												Được Tài Trợ
+												<svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M8.19536 0C12.6192 0 16.2052 3.35775 16.2052 7.5C16.2052 11.6423 12.6192 15 8.19536 15C3.77154 15 0.185547 11.6423 0.185547 7.5C0.185547 3.35775 3.77154 0 8.19536 0ZM8.19536 1.5C6.49589 1.5 4.86603 2.13214 3.66433 3.25736C2.46262 4.38258 1.78751 5.9087 1.78751 7.5C1.78751 9.0913 2.46262 10.6174 3.66433 11.7426C4.86603 12.8679 6.49589 13.5 8.19536 13.5C9.89483 13.5 11.5247 12.8679 12.7264 11.7426C13.9281 10.6174 14.6032 9.0913 14.6032 7.5C14.6032 5.9087 13.9281 4.38258 12.7264 3.25736C11.5247 2.13214 9.89483 1.5 8.19536 1.5ZM7.06278 4.31775C7.34635 4.0524 7.72588 3.89625 8.12642 3.88014C8.52696 3.86403 8.91939 3.98914 9.22623 4.23075L9.32795 4.31775L11.5939 6.4395C11.8773 6.70503 12.0441 7.0604 12.0613 7.43545C12.0785 7.8105 11.9449 8.17795 11.6868 8.46525L11.5939 8.5605L9.32795 10.6823C9.04437 10.9476 8.66484 11.1038 8.2643 11.1199C7.86376 11.136 7.47133 11.0109 7.1645 10.7692L7.06278 10.6823L4.7968 8.5605C4.51341 8.29497 4.34664 7.9396 4.32944 7.56455C4.31224 7.18951 4.44585 6.82205 4.70388 6.53475L4.7968 6.4395L7.06278 4.31775ZM8.19536 5.379L5.93019 7.5L8.19536 9.621L10.4605 7.5L8.19536 5.379Z" fill="#FFCD00"/>
+												</svg>
+											</div>
+											<div class="row flex-content-box mt-30">
+												<div class="col-12 col-lg-6 column-img-box">
+													<div class="wrap-box-img">
+														<img src="assets/image/img-box-column.png" alt="img-banner-01" style="width:100%">	
+														<span class="text-style-box">Đã Xác Thực</span>
+													</div>
+													<div class="hsh-blog-releated mt-20">
+														<div class="shs-nav-blog-releated row">
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-01.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-02.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-03.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-04.png"></a>	
+														</div>
+													</div>
+												</div>
+												<div class="col-12 col-lg-6 column-content-box">
+													<div class="box-info-des">
+														<label>Địa chỉ: </label>
+														<span class="info-des-normal" href="#">2C, Đường Nguyễn Thị Minh Khai, Phường Đakao, Quận 1, Tp. HCM</span>
+													</div>
+													<div class="box-info-des">
+														<label>Mã số thuế:</label>
+														<span class="info-des-normal" href="#">0305482862-009</span>
+													</div>
+													<div class="box-info-des">  
+														<label>Điện thoại: </label>
+														<span class="info-des-normal" href="#">(024) 38262938</span>
+													</div>
+													<div class="box-info-des">
+														<label>Sản phẩm chính: </label>   
+														<span class="info-des-normal" href="#">Camera Quan Sát - Phân Phối Và Lắp Đặt Hệ Thống Camera</span>
+													</div>
+													<div class="box-info-des lh-1">
+														<label>Ngành nghề kinh doanh: </label>
+														<a class="info-link" href="#">Áo Phông Đồng Phục; </a>
+														<a class="info-link" href="#">Đồng Phục Công Sở; </a>
+														<a class="info-link" href="#">Đồng Phục Văn Phòng; </a>
+													</div>
+												</div>
+											</div>
+											<div class="item-des mt-40 mb-40">
+												Hơn 10 năm kinh nghiệm, là một trong ít Công ty có xưởng may trực tiếp, mang đến những "Dịch vụ và Sản phẩm Chất lượng nhất với Giá thành hợp lý nhất".Các dòng sản phẩm chính: Áo thun đồng phục công ty, doanh nghiệp, đồng phục nhà hàng, đồng phục quán cafe, đồng phục học sinh oversize, đồng phục họp lớp, đồng phục đi biển,..
+											</div>
+											<a class="btn-text btn-box-text-dm" href="#">Xem Thêm <img src="assets/image/double-icon.svg" alt="double icon"></a>
+											<div class="space-between row-btn-info btn-box-dm">
+		 										<a class="btn-main btn-round style-04" href="tel:02438262938">
+			 										<svg width="16" height="16" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M20.0887 26.5983C18.206 26.529 12.8701 25.7918 7.28194 20.206C1.69507 14.619 0.958955 9.28558 0.888351 7.40188C0.783752 4.53124 2.98294 1.74295 5.52338 0.654044C5.8293 0.521972 6.1643 0.471688 6.49553 0.508126C6.82675 0.544565 7.14281 0.666474 7.41269 0.861891C9.50466 2.3861 10.9481 4.69203 12.1876 6.50514C12.4603 6.90348 12.5769 7.38822 12.5152 7.86699C12.4535 8.34575 12.2177 8.78508 11.8529 9.10126L9.302 10.9954C9.17876 11.0844 9.09201 11.2151 9.05786 11.3632C9.02371 11.5113 9.04449 11.6667 9.11634 11.8007C9.69424 12.8504 10.7219 14.4138 11.8987 15.5903C13.0767 16.7668 14.7137 17.8622 15.8368 18.5054C15.9776 18.5844 16.1434 18.6065 16.3 18.5671C16.4566 18.5277 16.5922 18.4298 16.6788 18.2936L18.3393 15.7667C18.6446 15.3613 19.0949 15.0897 19.596 15.0088C20.0971 14.9279 20.6101 15.044 21.0275 15.3328C22.8671 16.606 25.014 18.0243 26.5856 20.0361C26.7969 20.3079 26.9314 20.6314 26.9748 20.9729C27.0183 21.3144 26.9692 21.6613 26.8327 21.9773C25.7384 24.5303 22.9691 26.7042 20.0887 26.5983Z" fill="#003DA5"/>
+													</svg>
+													(024) 38262938
+												</a>
+		 										<a class="btn-main btn-round style-04" href="mailto:abc@gmail.com">
+		 											<svg width="19" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path id="Vector" d="M3.20234 19.4694C2.48444 19.4694 1.86966 19.2391 1.35799 18.7786C0.846327 18.3181 0.590929 17.7652 0.591799 17.1199V3.02295C0.591799 2.37684 0.847632 1.82354 1.3593 1.36304C1.87097 0.902539 2.48531 0.672681 3.20234 0.673464H24.0867C24.8046 0.673464 25.4194 0.903714 25.931 1.36421C26.4427 1.82471 26.6981 2.37763 26.6972 3.02295V17.1199C26.6972 17.766 26.4414 18.3193 25.9297 18.7798C25.4181 19.2403 24.8037 19.4702 24.0867 19.4694H3.20234ZM24.0867 5.37244L14.3298 10.8644C14.221 10.9231 14.1066 10.9674 13.9865 10.9971C13.8664 11.0269 13.7524 11.0414 13.6445 11.0406C13.5357 11.0406 13.4213 11.0261 13.3012 10.9971C13.1811 10.9681 13.0672 10.9239 12.9593 10.8644L3.20234 5.37244V17.1199H24.0867V5.37244ZM13.6445 8.89668L24.0867 3.02295H3.20234L13.6445 8.89668ZM3.20234 5.66613V3.93338V3.96275V3.94865V5.66613Z" fill="#003DA5"/>
+													</svg>
+			 										abc@gmail.com
+			 									</a>
+		 										<a class="btn-main btn-round style-04" href="#">
+		 											<svg width="20" height="25" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g id="Group">
+														<path id="Vector" d="M27.1931 14.5935C27.1931 7.38452 21.4166 1.54082 14.2904 1.54082C7.16423 1.54082 1.3877 7.38452 1.3877 14.5935C1.3877 21.8026 7.16423 27.6463 14.2904 27.6463" stroke="#003DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+														<path id="Vector_2" d="M15.5813 1.60574C15.5813 1.60574 19.4521 6.76157 19.4521 14.5932M13.0007 27.5807C13.0007 27.5807 9.12992 22.4248 9.12992 14.5932C9.12992 6.76157 13.0007 1.60574 13.0007 1.60574M2.20117 19.1617H14.291M2.20117 10.0247H26.3808" stroke="#003DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+														<path id="Vector_3" d="M27.0363 22.3167C27.6737 22.7135 27.6337 23.6781 26.9782 23.7538L23.6661 24.1336L22.181 27.1514C21.8868 27.7505 20.9772 27.4568 20.8262 26.7154L19.207 18.7324C19.0792 18.1059 19.6366 17.7117 20.1747 18.0471L27.0363 22.3167Z" stroke="#003DA5" stroke-width="2"/>
+														</g>
+													</svg>
+			 										www.abc.com
+			 									</a>
+		 									</div>
+										</div>
+									</div>
+
+									<div class="widget-box-info mb-30">
+										<div class="box-info-content">
+											<h3 class="box-cate-title color-main fs-20">
+												Đồng Phục Trung Việt  - Công Ty TNHH Dệt May Trung Việt 
+												<svg width="31" height="28" viewBox="0 0 31 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path id="Vector" d="M30.8591 13.9933L27.5277 10.2742L27.9919 5.35117L23.0632 4.25418L20.4827 0L15.8407 1.95318L11.1986 0L8.61818 4.25418L3.68942 5.33779L4.15362 10.2609L0.822266 13.9933L4.15362 17.7124L3.68942 22.6488L8.61818 23.7458L11.1986 28L15.8407 26.0334L20.4827 27.9866L23.0632 23.7324L27.9919 22.6354L27.5277 17.7124L30.8591 13.9933ZM13.1101 20.6823L7.64881 15.3311L9.5739 13.4448L13.1101 16.8963L22.1074 8.08027L24.0325 9.97993L13.1101 20.6823Z" fill="#FFCD00"/>
+												</svg>
+											</h3>
+											<div class="sub-cate-title">
+												Được Tài Trợ
+												<svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M8.19536 0C12.6192 0 16.2052 3.35775 16.2052 7.5C16.2052 11.6423 12.6192 15 8.19536 15C3.77154 15 0.185547 11.6423 0.185547 7.5C0.185547 3.35775 3.77154 0 8.19536 0ZM8.19536 1.5C6.49589 1.5 4.86603 2.13214 3.66433 3.25736C2.46262 4.38258 1.78751 5.9087 1.78751 7.5C1.78751 9.0913 2.46262 10.6174 3.66433 11.7426C4.86603 12.8679 6.49589 13.5 8.19536 13.5C9.89483 13.5 11.5247 12.8679 12.7264 11.7426C13.9281 10.6174 14.6032 9.0913 14.6032 7.5C14.6032 5.9087 13.9281 4.38258 12.7264 3.25736C11.5247 2.13214 9.89483 1.5 8.19536 1.5ZM7.06278 4.31775C7.34635 4.0524 7.72588 3.89625 8.12642 3.88014C8.52696 3.86403 8.91939 3.98914 9.22623 4.23075L9.32795 4.31775L11.5939 6.4395C11.8773 6.70503 12.0441 7.0604 12.0613 7.43545C12.0785 7.8105 11.9449 8.17795 11.6868 8.46525L11.5939 8.5605L9.32795 10.6823C9.04437 10.9476 8.66484 11.1038 8.2643 11.1199C7.86376 11.136 7.47133 11.0109 7.1645 10.7692L7.06278 10.6823L4.7968 8.5605C4.51341 8.29497 4.34664 7.9396 4.32944 7.56455C4.31224 7.18951 4.44585 6.82205 4.70388 6.53475L4.7968 6.4395L7.06278 4.31775ZM8.19536 5.379L5.93019 7.5L8.19536 9.621L10.4605 7.5L8.19536 5.379Z" fill="#FFCD00"/>
+												</svg>
+											</div>
+											<div class="row flex-content-box mt-30">
+												<div class="col-12 col-lg-6 column-img-box">
+													<div class="wrap-box-img">
+														<img src="assets/image/img-box-column.png" alt="img-banner-01" style="width:100%">	
+														<span class="text-style-box">Đã Xác Thực</span>
+													</div>
+													<div class="hsh-blog-releated mt-20">
+														<div class="shs-nav-blog-releated row">
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-01.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-02.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-03.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-04.png"></a>	
+														</div>
+													</div>
+												</div>
+												<div class="col-12 col-lg-6 column-content-box">
+													<div class="box-info-des">
+														<label>Địa chỉ: </label>
+														<span class="info-des-normal" href="#">2C, Đường Nguyễn Thị Minh Khai, Phường Đakao, Quận 1, Tp. HCM</span>
+													</div>
+													<div class="box-info-des">
+														<label>Mã số thuế:</label>
+														<span class="info-des-normal" href="#">0305482862-009</span>
+													</div>
+													<div class="box-info-des">  
+														<label>Điện thoại: </label>
+														<span class="info-des-normal" href="#">(024) 38262938</span>
+													</div>
+													<div class="box-info-des">
+														<label>Sản phẩm chính: </label>   
+														<span class="info-des-normal" href="#">Camera Quan Sát - Phân Phối Và Lắp Đặt Hệ Thống Camera</span>
+													</div>
+													<div class="box-info-des lh-1">
+														<label>Ngành nghề kinh doanh: </label>
+														<a class="info-link" href="#">Áo Phông Đồng Phục; </a>
+														<a class="info-link" href="#">Đồng Phục Công Sở; </a>
+														<a class="info-link" href="#">Đồng Phục Văn Phòng; </a>
+													</div>
+												</div>
+											</div>
+											<div class="item-des mt-40 mb-40">
+												Hơn 10 năm kinh nghiệm, là một trong ít Công ty có xưởng may trực tiếp, mang đến những "Dịch vụ và Sản phẩm Chất lượng nhất với Giá thành hợp lý nhất".Các dòng sản phẩm chính: Áo thun đồng phục công ty, doanh nghiệp, đồng phục nhà hàng, đồng phục quán cafe, đồng phục học sinh oversize, đồng phục họp lớp, đồng phục đi biển,..
+											</div>
+											<a class="btn-text btn-box-text-dm" href="#">Xem Thêm <img src="assets/image/double-icon.svg" alt="double icon"></a>
+											<div class="space-between row-btn-info btn-box-dm">
+		 										<a class="btn-main btn-round style-04" href="tel:02438262938">
+			 										<svg width="16" height="16" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M20.0887 26.5983C18.206 26.529 12.8701 25.7918 7.28194 20.206C1.69507 14.619 0.958955 9.28558 0.888351 7.40188C0.783752 4.53124 2.98294 1.74295 5.52338 0.654044C5.8293 0.521972 6.1643 0.471688 6.49553 0.508126C6.82675 0.544565 7.14281 0.666474 7.41269 0.861891C9.50466 2.3861 10.9481 4.69203 12.1876 6.50514C12.4603 6.90348 12.5769 7.38822 12.5152 7.86699C12.4535 8.34575 12.2177 8.78508 11.8529 9.10126L9.302 10.9954C9.17876 11.0844 9.09201 11.2151 9.05786 11.3632C9.02371 11.5113 9.04449 11.6667 9.11634 11.8007C9.69424 12.8504 10.7219 14.4138 11.8987 15.5903C13.0767 16.7668 14.7137 17.8622 15.8368 18.5054C15.9776 18.5844 16.1434 18.6065 16.3 18.5671C16.4566 18.5277 16.5922 18.4298 16.6788 18.2936L18.3393 15.7667C18.6446 15.3613 19.0949 15.0897 19.596 15.0088C20.0971 14.9279 20.6101 15.044 21.0275 15.3328C22.8671 16.606 25.014 18.0243 26.5856 20.0361C26.7969 20.3079 26.9314 20.6314 26.9748 20.9729C27.0183 21.3144 26.9692 21.6613 26.8327 21.9773C25.7384 24.5303 22.9691 26.7042 20.0887 26.5983Z" fill="#003DA5"/>
+													</svg>
+													(024) 38262938
+												</a>
+		 										<a class="btn-main btn-round style-04" href="mailto:abc@gmail.com">
+		 											<svg width="19" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path id="Vector" d="M3.20234 19.4694C2.48444 19.4694 1.86966 19.2391 1.35799 18.7786C0.846327 18.3181 0.590929 17.7652 0.591799 17.1199V3.02295C0.591799 2.37684 0.847632 1.82354 1.3593 1.36304C1.87097 0.902539 2.48531 0.672681 3.20234 0.673464H24.0867C24.8046 0.673464 25.4194 0.903714 25.931 1.36421C26.4427 1.82471 26.6981 2.37763 26.6972 3.02295V17.1199C26.6972 17.766 26.4414 18.3193 25.9297 18.7798C25.4181 19.2403 24.8037 19.4702 24.0867 19.4694H3.20234ZM24.0867 5.37244L14.3298 10.8644C14.221 10.9231 14.1066 10.9674 13.9865 10.9971C13.8664 11.0269 13.7524 11.0414 13.6445 11.0406C13.5357 11.0406 13.4213 11.0261 13.3012 10.9971C13.1811 10.9681 13.0672 10.9239 12.9593 10.8644L3.20234 5.37244V17.1199H24.0867V5.37244ZM13.6445 8.89668L24.0867 3.02295H3.20234L13.6445 8.89668ZM3.20234 5.66613V3.93338V3.96275V3.94865V5.66613Z" fill="#003DA5"/>
+													</svg>
+			 										abc@gmail.com
+			 									</a>
+		 										<a class="btn-main btn-round style-04" href="#">
+		 											<svg width="20" height="25" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g id="Group">
+														<path id="Vector" d="M27.1931 14.5935C27.1931 7.38452 21.4166 1.54082 14.2904 1.54082C7.16423 1.54082 1.3877 7.38452 1.3877 14.5935C1.3877 21.8026 7.16423 27.6463 14.2904 27.6463" stroke="#003DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+														<path id="Vector_2" d="M15.5813 1.60574C15.5813 1.60574 19.4521 6.76157 19.4521 14.5932M13.0007 27.5807C13.0007 27.5807 9.12992 22.4248 9.12992 14.5932C9.12992 6.76157 13.0007 1.60574 13.0007 1.60574M2.20117 19.1617H14.291M2.20117 10.0247H26.3808" stroke="#003DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+														<path id="Vector_3" d="M27.0363 22.3167C27.6737 22.7135 27.6337 23.6781 26.9782 23.7538L23.6661 24.1336L22.181 27.1514C21.8868 27.7505 20.9772 27.4568 20.8262 26.7154L19.207 18.7324C19.0792 18.1059 19.6366 17.7117 20.1747 18.0471L27.0363 22.3167Z" stroke="#003DA5" stroke-width="2"/>
+														</g>
+													</svg>
+			 										www.abc.com
+			 									</a>
+		 									</div>
+										</div>
+									</div>
+									<div class="widget-box-info mb-30">
+										<div class="box-info-content">
+											<h3 class="box-cate-title color-main fs-20">
+												Đồng Phục Trung Việt  - Công Ty TNHH Dệt May Trung Việt 
+												<svg width="31" height="28" viewBox="0 0 31 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path id="Vector" d="M30.8591 13.9933L27.5277 10.2742L27.9919 5.35117L23.0632 4.25418L20.4827 0L15.8407 1.95318L11.1986 0L8.61818 4.25418L3.68942 5.33779L4.15362 10.2609L0.822266 13.9933L4.15362 17.7124L3.68942 22.6488L8.61818 23.7458L11.1986 28L15.8407 26.0334L20.4827 27.9866L23.0632 23.7324L27.9919 22.6354L27.5277 17.7124L30.8591 13.9933ZM13.1101 20.6823L7.64881 15.3311L9.5739 13.4448L13.1101 16.8963L22.1074 8.08027L24.0325 9.97993L13.1101 20.6823Z" fill="#FFCD00"/>
+												</svg>
+											</h3>
+											<div class="sub-cate-title">
+												Được Tài Trợ
+												<svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M8.19536 0C12.6192 0 16.2052 3.35775 16.2052 7.5C16.2052 11.6423 12.6192 15 8.19536 15C3.77154 15 0.185547 11.6423 0.185547 7.5C0.185547 3.35775 3.77154 0 8.19536 0ZM8.19536 1.5C6.49589 1.5 4.86603 2.13214 3.66433 3.25736C2.46262 4.38258 1.78751 5.9087 1.78751 7.5C1.78751 9.0913 2.46262 10.6174 3.66433 11.7426C4.86603 12.8679 6.49589 13.5 8.19536 13.5C9.89483 13.5 11.5247 12.8679 12.7264 11.7426C13.9281 10.6174 14.6032 9.0913 14.6032 7.5C14.6032 5.9087 13.9281 4.38258 12.7264 3.25736C11.5247 2.13214 9.89483 1.5 8.19536 1.5ZM7.06278 4.31775C7.34635 4.0524 7.72588 3.89625 8.12642 3.88014C8.52696 3.86403 8.91939 3.98914 9.22623 4.23075L9.32795 4.31775L11.5939 6.4395C11.8773 6.70503 12.0441 7.0604 12.0613 7.43545C12.0785 7.8105 11.9449 8.17795 11.6868 8.46525L11.5939 8.5605L9.32795 10.6823C9.04437 10.9476 8.66484 11.1038 8.2643 11.1199C7.86376 11.136 7.47133 11.0109 7.1645 10.7692L7.06278 10.6823L4.7968 8.5605C4.51341 8.29497 4.34664 7.9396 4.32944 7.56455C4.31224 7.18951 4.44585 6.82205 4.70388 6.53475L4.7968 6.4395L7.06278 4.31775ZM8.19536 5.379L5.93019 7.5L8.19536 9.621L10.4605 7.5L8.19536 5.379Z" fill="#FFCD00"/>
+												</svg>
+											</div>
+											<div class="row flex-content-box mt-30">
+												<div class="col-12 col-lg-6 column-img-box">
+													<div class="wrap-box-img">
+														<img src="assets/image/img-box-column.png" alt="img-banner-01" style="width:100%">	
+														<span class="text-style-box">Đã Xác Thực</span>
+													</div>
+													<div class="hsh-blog-releated mt-20">
+														<div class="shs-nav-blog-releated row">
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-01.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-02.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-03.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-04.png"></a>	
+														</div>
+													</div>
+												</div>
+												<div class="col-12 col-lg-6 column-content-box">
+													<div class="box-info-des">
+														<label>Địa chỉ: </label>
+														<span class="info-des-normal" href="#">2C, Đường Nguyễn Thị Minh Khai, Phường Đakao, Quận 1, Tp. HCM</span>
+													</div>
+													<div class="box-info-des">
+														<label>Mã số thuế:</label>
+														<span class="info-des-normal" href="#">0305482862-009</span>
+													</div>
+													<div class="box-info-des">  
+														<label>Điện thoại: </label>
+														<span class="info-des-normal" href="#">(024) 38262938</span>
+													</div>
+													<div class="box-info-des">
+														<label>Sản phẩm chính: </label>   
+														<span class="info-des-normal" href="#">Camera Quan Sát - Phân Phối Và Lắp Đặt Hệ Thống Camera</span>
+													</div>
+													<div class="box-info-des lh-1">
+														<label>Ngành nghề kinh doanh: </label>
+														<a class="info-link" href="#">Áo Phông Đồng Phục; </a>
+														<a class="info-link" href="#">Đồng Phục Công Sở; </a>
+														<a class="info-link" href="#">Đồng Phục Văn Phòng; </a>
+													</div>
+												</div>
+											</div>
+											<div class="item-des mt-40 mb-40">
+												Hơn 10 năm kinh nghiệm, là một trong ít Công ty có xưởng may trực tiếp, mang đến những "Dịch vụ và Sản phẩm Chất lượng nhất với Giá thành hợp lý nhất".Các dòng sản phẩm chính: Áo thun đồng phục công ty, doanh nghiệp, đồng phục nhà hàng, đồng phục quán cafe, đồng phục học sinh oversize, đồng phục họp lớp, đồng phục đi biển,..
+											</div>
+											<a class="btn-text btn-box-text-dm" href="#">Xem Thêm <img src="assets/image/double-icon.svg" alt="double icon"></a>
+											<div class="space-between row-btn-info btn-box-dm">
+		 										<a class="btn-main btn-round style-04" href="tel:02438262938">
+			 										<svg width="16" height="16" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M20.0887 26.5983C18.206 26.529 12.8701 25.7918 7.28194 20.206C1.69507 14.619 0.958955 9.28558 0.888351 7.40188C0.783752 4.53124 2.98294 1.74295 5.52338 0.654044C5.8293 0.521972 6.1643 0.471688 6.49553 0.508126C6.82675 0.544565 7.14281 0.666474 7.41269 0.861891C9.50466 2.3861 10.9481 4.69203 12.1876 6.50514C12.4603 6.90348 12.5769 7.38822 12.5152 7.86699C12.4535 8.34575 12.2177 8.78508 11.8529 9.10126L9.302 10.9954C9.17876 11.0844 9.09201 11.2151 9.05786 11.3632C9.02371 11.5113 9.04449 11.6667 9.11634 11.8007C9.69424 12.8504 10.7219 14.4138 11.8987 15.5903C13.0767 16.7668 14.7137 17.8622 15.8368 18.5054C15.9776 18.5844 16.1434 18.6065 16.3 18.5671C16.4566 18.5277 16.5922 18.4298 16.6788 18.2936L18.3393 15.7667C18.6446 15.3613 19.0949 15.0897 19.596 15.0088C20.0971 14.9279 20.6101 15.044 21.0275 15.3328C22.8671 16.606 25.014 18.0243 26.5856 20.0361C26.7969 20.3079 26.9314 20.6314 26.9748 20.9729C27.0183 21.3144 26.9692 21.6613 26.8327 21.9773C25.7384 24.5303 22.9691 26.7042 20.0887 26.5983Z" fill="#003DA5"/>
+													</svg>
+													(024) 38262938
+												</a>
+		 										<a class="btn-main btn-round style-04" href="mailto:abc@gmail.com">
+		 											<svg width="19" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path id="Vector" d="M3.20234 19.4694C2.48444 19.4694 1.86966 19.2391 1.35799 18.7786C0.846327 18.3181 0.590929 17.7652 0.591799 17.1199V3.02295C0.591799 2.37684 0.847632 1.82354 1.3593 1.36304C1.87097 0.902539 2.48531 0.672681 3.20234 0.673464H24.0867C24.8046 0.673464 25.4194 0.903714 25.931 1.36421C26.4427 1.82471 26.6981 2.37763 26.6972 3.02295V17.1199C26.6972 17.766 26.4414 18.3193 25.9297 18.7798C25.4181 19.2403 24.8037 19.4702 24.0867 19.4694H3.20234ZM24.0867 5.37244L14.3298 10.8644C14.221 10.9231 14.1066 10.9674 13.9865 10.9971C13.8664 11.0269 13.7524 11.0414 13.6445 11.0406C13.5357 11.0406 13.4213 11.0261 13.3012 10.9971C13.1811 10.9681 13.0672 10.9239 12.9593 10.8644L3.20234 5.37244V17.1199H24.0867V5.37244ZM13.6445 8.89668L24.0867 3.02295H3.20234L13.6445 8.89668ZM3.20234 5.66613V3.93338V3.96275V3.94865V5.66613Z" fill="#003DA5"/>
+													</svg>
+			 										abc@gmail.com
+			 									</a>
+		 										<a class="btn-main btn-round style-04" href="#">
+		 											<svg width="20" height="25" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g id="Group">
+														<path id="Vector" d="M27.1931 14.5935C27.1931 7.38452 21.4166 1.54082 14.2904 1.54082C7.16423 1.54082 1.3877 7.38452 1.3877 14.5935C1.3877 21.8026 7.16423 27.6463 14.2904 27.6463" stroke="#003DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+														<path id="Vector_2" d="M15.5813 1.60574C15.5813 1.60574 19.4521 6.76157 19.4521 14.5932M13.0007 27.5807C13.0007 27.5807 9.12992 22.4248 9.12992 14.5932C9.12992 6.76157 13.0007 1.60574 13.0007 1.60574M2.20117 19.1617H14.291M2.20117 10.0247H26.3808" stroke="#003DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+														<path id="Vector_3" d="M27.0363 22.3167C27.6737 22.7135 27.6337 23.6781 26.9782 23.7538L23.6661 24.1336L22.181 27.1514C21.8868 27.7505 20.9772 27.4568 20.8262 26.7154L19.207 18.7324C19.0792 18.1059 19.6366 17.7117 20.1747 18.0471L27.0363 22.3167Z" stroke="#003DA5" stroke-width="2"/>
+														</g>
+													</svg>
+			 										www.abc.com
+			 									</a>
+		 									</div>
+										</div>
+									</div>
+									<div class="widget-box-info">
+										<div class="box-info-content">
+											<h3 class="box-cate-title color-main fs-20">
+												Đồng Phục Trung Việt  - Công Ty TNHH Dệt May Trung Việt 
+												<svg width="31" height="28" viewBox="0 0 31 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path id="Vector" d="M30.8591 13.9933L27.5277 10.2742L27.9919 5.35117L23.0632 4.25418L20.4827 0L15.8407 1.95318L11.1986 0L8.61818 4.25418L3.68942 5.33779L4.15362 10.2609L0.822266 13.9933L4.15362 17.7124L3.68942 22.6488L8.61818 23.7458L11.1986 28L15.8407 26.0334L20.4827 27.9866L23.0632 23.7324L27.9919 22.6354L27.5277 17.7124L30.8591 13.9933ZM13.1101 20.6823L7.64881 15.3311L9.5739 13.4448L13.1101 16.8963L22.1074 8.08027L24.0325 9.97993L13.1101 20.6823Z" fill="#FFCD00"/>
+												</svg>
+											</h3>
+											<div class="sub-cate-title">
+												Được Tài Trợ
+												<svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M8.19536 0C12.6192 0 16.2052 3.35775 16.2052 7.5C16.2052 11.6423 12.6192 15 8.19536 15C3.77154 15 0.185547 11.6423 0.185547 7.5C0.185547 3.35775 3.77154 0 8.19536 0ZM8.19536 1.5C6.49589 1.5 4.86603 2.13214 3.66433 3.25736C2.46262 4.38258 1.78751 5.9087 1.78751 7.5C1.78751 9.0913 2.46262 10.6174 3.66433 11.7426C4.86603 12.8679 6.49589 13.5 8.19536 13.5C9.89483 13.5 11.5247 12.8679 12.7264 11.7426C13.9281 10.6174 14.6032 9.0913 14.6032 7.5C14.6032 5.9087 13.9281 4.38258 12.7264 3.25736C11.5247 2.13214 9.89483 1.5 8.19536 1.5ZM7.06278 4.31775C7.34635 4.0524 7.72588 3.89625 8.12642 3.88014C8.52696 3.86403 8.91939 3.98914 9.22623 4.23075L9.32795 4.31775L11.5939 6.4395C11.8773 6.70503 12.0441 7.0604 12.0613 7.43545C12.0785 7.8105 11.9449 8.17795 11.6868 8.46525L11.5939 8.5605L9.32795 10.6823C9.04437 10.9476 8.66484 11.1038 8.2643 11.1199C7.86376 11.136 7.47133 11.0109 7.1645 10.7692L7.06278 10.6823L4.7968 8.5605C4.51341 8.29497 4.34664 7.9396 4.32944 7.56455C4.31224 7.18951 4.44585 6.82205 4.70388 6.53475L4.7968 6.4395L7.06278 4.31775ZM8.19536 5.379L5.93019 7.5L8.19536 9.621L10.4605 7.5L8.19536 5.379Z" fill="#FFCD00"/>
+												</svg>
+											</div>
+											<div class="row flex-content-box mt-30">
+												<div class="col-12 col-lg-6 column-img-box">
+													<div class="wrap-box-img">
+														<img src="assets/image/img-box-column.png" alt="img-banner-01" style="width:100%">	
+														<span class="text-style-box">Đã Xác Thực</span>
+													</div>
+													<div class="hsh-blog-releated mt-20">
+														<div class="shs-nav-blog-releated row">
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-01.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-02.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-03.png"></a>
+															<a href="#" class="nav-image"><img alt="img-blog-01" style="max-width: 70px" src="assets/image/img-nav-column-box-04.png"></a>	
+														</div>
+													</div>
+												</div>
+												<div class="col-12 col-lg-6 column-content-box">
+													<div class="box-info-des">
+														<label>Địa chỉ: </label>
+														<span class="info-des-normal" href="#">2C, Đường Nguyễn Thị Minh Khai, Phường Đakao, Quận 1, Tp. HCM</span>
+													</div>
+													<div class="box-info-des">
+														<label>Mã số thuế:</label>
+														<span class="info-des-normal" href="#">0305482862-009</span>
+													</div>
+													<div class="box-info-des">  
+														<label>Điện thoại: </label>
+														<span class="info-des-normal" href="#">(024) 38262938</span>
+													</div>
+													<div class="box-info-des">
+														<label>Sản phẩm chính: </label>   
+														<span class="info-des-normal" href="#">Camera Quan Sát - Phân Phối Và Lắp Đặt Hệ Thống Camera</span>
+													</div>
+													<div class="box-info-des lh-1">
+														<label>Ngành nghề kinh doanh: </label>
+														<a class="info-link" href="#">Áo Phông Đồng Phục; </a>
+														<a class="info-link" href="#">Đồng Phục Công Sở; </a>
+														<a class="info-link" href="#">Đồng Phục Văn Phòng; </a>
+													</div>
+												</div>
+											</div>
+											<div class="item-des mt-40 mb-40">
+												Hơn 10 năm kinh nghiệm, là một trong ít Công ty có xưởng may trực tiếp, mang đến những "Dịch vụ và Sản phẩm Chất lượng nhất với Giá thành hợp lý nhất".Các dòng sản phẩm chính: Áo thun đồng phục công ty, doanh nghiệp, đồng phục nhà hàng, đồng phục quán cafe, đồng phục học sinh oversize, đồng phục họp lớp, đồng phục đi biển,..
+											</div>
+											<a class="btn-text btn-box-text-dm" href="#">Xem Thêm <img src="assets/image/double-icon.svg" alt="double icon"></a>
+											<div class="space-between row-btn-info btn-box-dm">
+		 										<a class="btn-main btn-round style-04" href="tel:02438262938">
+			 										<svg width="16" height="16" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M20.0887 26.5983C18.206 26.529 12.8701 25.7918 7.28194 20.206C1.69507 14.619 0.958955 9.28558 0.888351 7.40188C0.783752 4.53124 2.98294 1.74295 5.52338 0.654044C5.8293 0.521972 6.1643 0.471688 6.49553 0.508126C6.82675 0.544565 7.14281 0.666474 7.41269 0.861891C9.50466 2.3861 10.9481 4.69203 12.1876 6.50514C12.4603 6.90348 12.5769 7.38822 12.5152 7.86699C12.4535 8.34575 12.2177 8.78508 11.8529 9.10126L9.302 10.9954C9.17876 11.0844 9.09201 11.2151 9.05786 11.3632C9.02371 11.5113 9.04449 11.6667 9.11634 11.8007C9.69424 12.8504 10.7219 14.4138 11.8987 15.5903C13.0767 16.7668 14.7137 17.8622 15.8368 18.5054C15.9776 18.5844 16.1434 18.6065 16.3 18.5671C16.4566 18.5277 16.5922 18.4298 16.6788 18.2936L18.3393 15.7667C18.6446 15.3613 19.0949 15.0897 19.596 15.0088C20.0971 14.9279 20.6101 15.044 21.0275 15.3328C22.8671 16.606 25.014 18.0243 26.5856 20.0361C26.7969 20.3079 26.9314 20.6314 26.9748 20.9729C27.0183 21.3144 26.9692 21.6613 26.8327 21.9773C25.7384 24.5303 22.9691 26.7042 20.0887 26.5983Z" fill="#003DA5"/>
+													</svg>
+													(024) 38262938
+												</a>
+		 										<a class="btn-main btn-round style-04" href="mailto:abc@gmail.com">
+		 											<svg width="19" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path id="Vector" d="M3.20234 19.4694C2.48444 19.4694 1.86966 19.2391 1.35799 18.7786C0.846327 18.3181 0.590929 17.7652 0.591799 17.1199V3.02295C0.591799 2.37684 0.847632 1.82354 1.3593 1.36304C1.87097 0.902539 2.48531 0.672681 3.20234 0.673464H24.0867C24.8046 0.673464 25.4194 0.903714 25.931 1.36421C26.4427 1.82471 26.6981 2.37763 26.6972 3.02295V17.1199C26.6972 17.766 26.4414 18.3193 25.9297 18.7798C25.4181 19.2403 24.8037 19.4702 24.0867 19.4694H3.20234ZM24.0867 5.37244L14.3298 10.8644C14.221 10.9231 14.1066 10.9674 13.9865 10.9971C13.8664 11.0269 13.7524 11.0414 13.6445 11.0406C13.5357 11.0406 13.4213 11.0261 13.3012 10.9971C13.1811 10.9681 13.0672 10.9239 12.9593 10.8644L3.20234 5.37244V17.1199H24.0867V5.37244ZM13.6445 8.89668L24.0867 3.02295H3.20234L13.6445 8.89668ZM3.20234 5.66613V3.93338V3.96275V3.94865V5.66613Z" fill="#003DA5"/>
+													</svg>
+			 										abc@gmail.com
+			 									</a>
+		 										<a class="btn-main btn-round style-04" href="#">
+		 											<svg width="20" height="25" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g id="Group">
+														<path id="Vector" d="M27.1931 14.5935C27.1931 7.38452 21.4166 1.54082 14.2904 1.54082C7.16423 1.54082 1.3877 7.38452 1.3877 14.5935C1.3877 21.8026 7.16423 27.6463 14.2904 27.6463" stroke="#003DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+														<path id="Vector_2" d="M15.5813 1.60574C15.5813 1.60574 19.4521 6.76157 19.4521 14.5932M13.0007 27.5807C13.0007 27.5807 9.12992 22.4248 9.12992 14.5932C9.12992 6.76157 13.0007 1.60574 13.0007 1.60574M2.20117 19.1617H14.291M2.20117 10.0247H26.3808" stroke="#003DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+														<path id="Vector_3" d="M27.0363 22.3167C27.6737 22.7135 27.6337 23.6781 26.9782 23.7538L23.6661 24.1336L22.181 27.1514C21.8868 27.7505 20.9772 27.4568 20.8262 26.7154L19.207 18.7324C19.0792 18.1059 19.6366 17.7117 20.1747 18.0471L27.0363 22.3167Z" stroke="#003DA5" stroke-width="2"/>
+														</g>
+													</svg>
+			 										www.abc.com
+			 									</a>
+		 									</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-lg-3 sidebar-info-page">  
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>	
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/img-banner-sale.png" style="width:100%">
+							</div>
+							<div class="item-post item-banner-sale-sb">
+								<img alt="img-blog-01" src="assets/image/banner-marketing.png" style="width:100%">
+							</div>
+						</div>
+
+						<div class="nav-number-blog">
+							<a href="#">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#">4</a>
+							<a href="#">5</a>
+						</div>
+					</div>
+				</section>
+
+				<section class="section section-widget-banner-image-single space-custom-02 section-banner-image-dm-page" style="max-width:1240px; margin: 100px auto 0">
+					<div class="container-fluid-ct">
+						<div class="row">
+							<div class="col-12 col-md-6 col-xl-3 item-banner-image-single">
+								<a href="#">
+									<img src="assets/image/img-banner-sale.png" alt="img-banner-01" style="width:100%">
+								</a>
+							</div>
+							<div class="col-12 col-md-6 col-xl-3 item-banner-image-single">
+								<a href="#">
+									<img src="assets/image/img-banner-sale.png" alt="img-banner-01" style="width:100%">
+								</a>
+							</div>
+							<div class="col-12 col-md-6 col-xl-3 item-banner-image-single">
+								<a href="#">
+									<img src="assets/image/img-banner-sale.png" alt="img-banner-01" style="width:100%">
+								</a>
+							</div>
+							<div class="col-12 col-md-6 col-xl-3 item-banner-image-single">
+								<a href="#">
+									<img src="assets/image/img-banner-sale.png" alt="img-banner-01" style="width:100%">	
+								</a>
+							</div>
+						</div>	
+					</div>
+				</section>
+
+				<section class="bgr-fff">
+					<div class="container-fluid section-table-of-contents style-2">
+						<div class="container-fluid-ct">
+							<div class="row row-table-of-contents">
+								<div class="table-of-contents">
+									<ul class="list-of-contents">
+										<span class="table-of-contents-title">
+											Mục lục
+										</span>
+										<li><a class="box-link-table" href="#">A</a></li>
+										<li><a class="box-link-table" href="#">B</a></li>
+										<li><a class="box-link-table" href="#">C</a></li>
+										<li><a class="box-link-table" href="#">D</a></li>
+										<li><a class="box-link-table" href="#">E</a></li>
+										<li><a class="box-link-table" href="#">F</a></li>
+										<li><a class="box-link-table" href="#">G</a></li>
+										<li><a class="box-link-table" href="#">H</a></li>
+										<li><a class="box-link-table" href="#">I</a></li>
+										<li><a class="box-link-table" href="#">J</a></li>
+										<li><a class="box-link-table" href="#">K</a></li>
+										<li><a class="box-link-table" href="#">L</a></li>
+										<li><a class="box-link-table" href="#">M</a></li>
+										<li><a class="box-link-table" href="#">N</a></li>
+										<li><a class="box-link-table" href="#">O</a></li>
+										<li><a class="box-link-table" href="#">P</a></li>
+										<li><a class="box-link-table" href="#">Q</a></li>
+										<li><a class="box-link-table" href="#">R</a></li>
+										<li><a class="box-link-table" href="#">S</a></li>
+										<li><a class="box-link-table" href="#">T</a></li>
+										<li><a class="box-link-table" href="#">U</a></li>
+										<li><a class="box-link-table" href="#">V</a></li>
+										<li><a class="box-link-table" href="#">W</a></li>
+										<li><a class="box-link-table" href="#">X</a></li>
+										<li><a class="box-link-table" href="#">Y</a></li>
+										<li><a class="box-link-table" href="#">Z</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+	<section class="section-infomation">
+		<div class="container-fluid-ct">
+			<div class="row">
+				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 wrap-info-company footer-column">
+					<div class="logo-footer">
+						<a class="logo" href="#"><img src="assets/image/logo.png" alt="Logo"></a>
+					</div>
+					<p class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam</p>
+					<ul class="social-network">
+						<li>
+							<a href="#">
+								<img src="assets/image/Facebook.svg" alt="Facebook">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="assets/image/Twitter.svg" alt="Twitter">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="assets/image/Instagram.svg" alt="Instagram">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="assets/image/LinkedIn.svg" alt="LinkedIn">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="assets/image/Youtube.svg" alt="Youtube">
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 col-xs-12 wrap-link-footer footer-column">
+					<div class="link-of-home">
+						<h5>Trang chủ</h5>
+						<ul class="list-link">
+							<li class="item"><a href="#">Feature</a></li>
+							<li class="item"><a href="#">Pricing</a></li>
+							<li class="item"><a href="#">Case Studies</a></li>
+							<li class="item"><a href="#">Reviews</a></li>
+							<li class="item"><a href="#">Updates</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 col-xs-12 wrap-link-footer footer-column">
+					<div class="link-of-company">
+						<h5>Company</h5>
+						<ul class="list-link">
+							<li class="item"><a href="#">About</a></li>
+							<li class="item"><a href="#">Contact Us</a></li>
+							<li class="item"><a href="#">Careers</a></li>
+							<li class="item"><a href="#">Culture</a></li>
+							<li class="item"><a href="#">Blog</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 col-xs-12 wrap-link-footer footer-column">
+					<div class="link-of-support">
+						<h5>Support</h5>
+						<ul class="list-link">
+							<li class="item"><a href="#">Getting started</a></li>
+							<li class="item"><a href="#">Help center</a></li>
+							<li class="item"><a href="#">Server status</a></li>
+							<li class="item"><a href="#">Report a bug</a></li>
+							<li class="item"><a href="#">Chat support</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 col-xs-12 wrap-link-footer footer-column">
+					<div class="link-of-contact">
+						<h5>Contact Us</h5>
+						<ul class="list-link">
+							<li class="item">
+								<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M18.3333 5.9668V14.3001C18.3333 14.8527 18.1138 15.3826 17.7231 15.7733C17.3324 16.164 16.8025 16.3835 16.25 16.3835H3.74996C3.19743 16.3835 2.66752 16.164 2.27682 15.7733C1.88612 15.3826 1.66663 14.8527 1.66663 14.3001V5.9668" stroke="#FFCD00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M18.3333 5.96663C18.3333 5.4141 18.1138 4.8842 17.7231 4.4935C17.3324 4.10279 16.8025 3.8833 16.25 3.8833H3.74996C3.19743 3.8833 2.66752 4.10279 2.27682 4.4935C1.88612 4.8842 1.66663 5.4141 1.66663 5.96663L8.89579 10.4805C9.2269 10.6875 9.6095 10.7972 9.99996 10.7972C10.3904 10.7972 10.773 10.6875 11.1041 10.4805L18.3333 5.96663Z" stroke="#FFCD00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<a href="mailto:contact@company.com">contact@company.com</a>
+							</li>
+							<li class="item">
+								<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.2515 18.3373L12.2606 18.3436C13.0477 18.8448 13.9822 19.0624 14.9096 18.9605C15.8371 18.8587 16.702 18.4434 17.3616 17.7834L17.9345 17.2105C18.0615 17.0836 18.1622 16.933 18.2309 16.7671C18.2996 16.6013 18.335 16.4236 18.335 16.2441C18.335 16.0646 18.2996 15.8868 18.2309 15.721C18.1622 15.5552 18.0615 15.4045 17.9345 15.2776L15.518 12.8629C15.3911 12.7359 15.2404 12.6352 15.0746 12.5665C14.9088 12.4977 14.731 12.4624 14.5515 12.4624C14.372 12.4624 14.1943 12.4977 14.0284 12.5665C13.8626 12.6352 13.712 12.7359 13.5851 12.8629C13.3288 13.119 12.9814 13.2629 12.6191 13.2629C12.2568 13.2629 11.9093 13.119 11.6531 12.8629L7.78914 8.99801C7.53299 8.74178 7.3891 8.39432 7.3891 8.03202C7.3891 7.66972 7.53299 7.32225 7.78914 7.06603C7.9161 6.93914 8.01682 6.78848 8.08554 6.62266C8.15426 6.45683 8.18963 6.27909 8.18963 6.09959C8.18963 5.92008 8.15426 5.74234 8.08554 5.57652C8.01682 5.41069 7.9161 5.26003 7.78914 5.13314L5.37348 2.7184C5.11726 2.46225 4.76979 2.31836 4.40749 2.31836C4.04519 2.31836 3.69773 2.46225 3.44151 2.7184L2.86765 3.29134C2.2078 3.95098 1.79274 4.816 1.69105 5.74346C1.58936 6.67092 1.80713 7.60533 2.30837 8.39227L2.31384 8.40138C4.96102 12.318 8.33446 15.6908 12.2515 18.3373V18.3373Z" stroke="#FFCD00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<a href="tel:4146875892">(414) 687 - 5892</a>
+							</li>
+							<li class="item">
+								<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M16.8608 9.54249C16.8608 14.9213 11.3516 18.2351 10.2067 18.8663C10.1433 18.9012 10.072 18.9196 9.99961 18.9196C9.92718 18.9196 9.85593 18.9012 9.79251 18.8663C8.64676 18.2351 3.13928 14.9213 3.13928 9.54249C3.13928 5.25451 5.71207 2.25293 10 2.25293C14.288 2.25293 16.8608 5.25451 16.8608 9.54249Z" stroke="#FFCD00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M6.5697 9.11349C6.5697 10.0233 6.93112 10.8958 7.57444 11.5391C8.21776 12.1825 9.09029 12.5439 10.0001 12.5439C10.9099 12.5439 11.7824 12.1825 12.4257 11.5391C13.069 10.8958 13.4305 10.0233 13.4305 9.11349C13.4305 8.20369 13.069 7.33116 12.4257 6.68784C11.7824 6.04452 10.9099 5.68311 10.0001 5.68311C9.09029 5.68311 8.21776 6.04452 7.57444 6.68784C6.93112 7.33116 6.5697 8.20369 6.5697 9.11349V9.11349Z" stroke="#FFCD00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<a href="#">794 Mcallister St San Francisco, 94102</a>
+							</li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-more-infomation">
+		<div class="container-fluid-ct">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="wrap wrap-footer-bottom">
+						<p>Copyright © 2023 INNOCOM</p>
+						<ul class="item-link-hozi">
+							<li class="item">All Rights Reserved </li>
+							<li class="item"><a href="#">Terms and Conditions</a></li>
+							<li class="item"><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</footer>
+
+<a href="#" class="scroll-top on">
+	<i class="zmdi zmdi-long-arrow-up"></i>
+</a>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="assets/owl/dist/owl.carousel.js"></script>
+<script src="assets/owl/dist/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>	

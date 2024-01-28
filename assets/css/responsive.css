@@ -5,7 +5,17 @@
 	}
 }
 
+@media (max-width: 1350px) {
+	.btn-round.style-04 {
+		font-size: 16px;
+	}
+}
+
 @media (max-width: 1199px) {
+	.btn-round.style-04 {
+		font-size: 11px;
+	}
+
 	.text-behind {
 		font-size: 100px;
 	}
@@ -195,6 +205,18 @@
 
 	.section-product.space-info-page .owl-carousel-section {
 		margin-top: 50px !important;
+	}
+
+	.btn-round.style-04 {
+		font-size: 20px;
+	}
+
+	.column-content-box {
+		margin-top: 30px;
+	}
+
+	.box-info-content .item-des {
+		margin: 10px 0 20px !important;
 	}
 }
 
@@ -405,6 +427,28 @@
 
 	.box-info-des.lh-1 {
 		line-height: 1.5;
+	}
+
+	.section-banner-image-dm-page {
+		margin-top: 70px !important;
+	}
+
+	.btn-box-dm {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+
+	.btn-box-dm a {
+		margin-right: 20px !important;
+		margin-bottom: 20px !important;
+	}
+
+	.title-main {
+		font-size: 24px;
+	}
+
+	.box-cate-title {
+		font-size: 18px !important;
 	}
 }
 

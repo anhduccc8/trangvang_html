@@ -138,11 +138,18 @@ ul li {
 .color-black {
     color: #000 !important;
 }
+
+.color-main {
+    color: var(--primary_color);
+}
 .color-white {
     color: #fff !important;
 }
 .fs-100 {
     font-size: 100px !important; 
+}
+.fs-20 {
+    font-size: 20px !important; 
 }
 .fs-30 {
     font-size: 30px !important; 
@@ -2160,20 +2167,223 @@ padding-right: 112px;
     padding: 0 !important;
 }
 
+/* Style Danh Muc Page */
+.widget-category-list {
 
+}
 
+.widget-title-sidebar {
+    color: var(--primary_color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px; /* 106.25% */
+    text-transform: uppercase;
+}
 
+.list-item-category li a {
+    color: #00317D;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline !important;
+    margin-bottom: 15px;
+    display: block;
+}
 
+.list-item-category li a:hover {
+    font-weight: 500;
+}
 
+.widget {
+    border-bottom: 3px solid #FFCD00;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
 
+.widget-category-list.style-02 .list-item-category li a,
+.widget-category-list.style-03 .list-item-category li a {
+    text-decoration: none !important;
+    color: #4D4D4D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
 
+.widget-category-list.style-02 .list-item-category li a:hover,
+.widget-category-list.style-03 .list-item-category li a:hover {
+    color: var(--primary_color);
+    text-decoration: underline !important;
+}
 
+.widget-category-list.style-03 .list-item-category li a {
+    text-decoration: underline !important;
+}
 
+.border-none {
+    border: none;
+}
 
+.box-cate-title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px; /* 85% */
+}
 
+.column-content-box .box-info-des span,
+.column-content-box .box-info-des label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}   
 
+.column-content-box .box-info-des label {
+    font-weight: 600;
+}
 
+.column-content-box .box-info-des.lh-1 a {
+    line-height: 1.5;
+}
 
+.column-content-box .box-info-des {
+    margin-bottom: 15px;
+}
 
+.column-img-box .shs-nav-blog-releated .nav-image {
+    margin: 0 0px 0;
+}
 
+.sub-cate-title {
+    color: #565656;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px; /* 121.429% */
+}
+
+.sub-cate-title svg {
+    transform: translateY(-1px);
+}
+
+.wrap-box-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap-box-img .text-style-box {
+    font-size: 12px;
+    font-weight: 700;
+    top: 25px;
+    right: -54px;
+    text-transform: uppercase;
+}
+
+.btn-box-dm {
+    display: flex;
+    border-top: 2px solid var(--primary_color); 
+    padding-top: 22px;
+}
+
+.btn-box-dm a {
+    margin: 0 !important; 
+    font-size: 20px;
+    height: 30px;
+    line-height: 27px;
+    padding: 0 13px;
+}
+
+.btn-box-text-dm {
+    color: var(--primary_color);
+    text-align: right;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.btn-box-text-dm img {
+    transform: translateY(-3px);
+}
+
+.nav-number-blog {
+    margin: 30px auto 0;
+}
+
+.nav-number-blog a {
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border: 3px solid var(--primary_color);
+    color: var(--primary_color);
+    display: inline-block;
+}
+
+.nav-number-blog a:hover {
+    background-color: var(--primary_color);
+    color: #fff;
+}
+
+.title-main {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.text-result {
+    color: #4D4D4D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.text-result span {
+    color: var(--primary_color);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.filter-box {
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-box > div {
+    margin: 0 10px;
+}
+
+.filter-box .dropdown-section {
+    border-radius: 20px;
+    border: 2px solid #003DA5;
+    background: rgba(77, 77, 77, 0.05);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.filter-box .dropdown-section #dropdownAddress {
+    margin: 0;
+    border: none !important;
+    padding: 7px 10px;
+}
+
+.filter-box .dropdown-section option {
+    border: none !important;
+}
+
+.filter-label {
+    color: var(--primary_color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px; /* 106.25% */
+    margin-bottom: 20px !important;
+}
+
+.section-blog-main.style-03 {
+    margin-top: 0 !important;
+}
 
