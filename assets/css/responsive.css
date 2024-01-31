@@ -429,6 +429,10 @@
 	    margin: 40px 20px 40px;
 	}
 
+	.box-write-review .form-review {
+	    padding: 40px 20px 40px;
+	}
+
 	.list-item-info ul li a {
 	    font-size: 16px;
 	}

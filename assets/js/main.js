@@ -38,9 +38,23 @@ $(document).ready(function() {
  }
 });
 
-
 function handleSelectionChange() {
     var dropdown = document.getElementById("myDropdown");
     // var selectedOption = dropdown.options[dropdown.selectedIndex].text;
     // document.getElementById("selectedOption").innerText = "Selected option: " + selectedOption;
 }
+
+/* Tab title */
+$(".tab-review").on('click', function () {
+    $(this).parents('.widget-box-info').find('.box-info-review').addClass('active');
+    $(this).parents('.widget-box-info').find('.box-write-review').removeClass('active');
+    $(this).parents('.widget-box-info').find('.tab-review').addClass('active');
+    $(this).parents('.widget-box-info').find('.tab-write-review').removeClass('active');
+});
+
+$(".tab-write-review").on('click', function () {
+    $(this).parents('.widget-box-info').find('.box-info-review').removeClass('active');
+    $(this).parents('.widget-box-info').find('.box-write-review').addClass('active');
+    $(this).parents('.widget-box-info').find('.tab-review').removeClass('active');
+    $(this).parents('.widget-box-info').find('.tab-write-review').addClass('active');
+});
